@@ -12,11 +12,11 @@ const SideBar = () => {
       <div className="mt-[7rem]">
         <h4 className="sidebar-placeholder">MENU</h4>
         <div className="links-holder">
-          <a href="" className="sidebar-anchor text-white active ">
+          <a href="/" className="sidebar-anchor text-white active ">
             <img src={Icon1} className="w-4" alt="" />
             <p className="sidebar-links "> Home</p>
           </a>
-          <a href="" className="sidebar-anchor">
+          <a href="/about" className="sidebar-anchor">
             <img src={Icon2} className="w-4" alt="" />
             <p className="sidebar-links">About Me</p>
           </a>

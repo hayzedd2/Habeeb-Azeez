@@ -6,7 +6,7 @@ const HeroText = () => {
       <div className="pt-[8rem] md:pt-[8rem] lg:pt-0">
         <div className="flex items-center  pl-7  justify-center  ">
           <div className="basis-[70%]  ">
-            <div className="text">
+            <div className="text max-w-[50rem]">
               <h1 className="hero-text-h1">
                 Hello there. I'm glad to have you here, I'm Habeeb, a{" "}
                 <span className="text-[#FFBD6A]"> Product Designer.</span>
