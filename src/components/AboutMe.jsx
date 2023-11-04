@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="pt-[8rem]">
           <div className=" px-7  text-white ">
            <div className="heading">
-            <h1 className=" font-kumbh font-[600] text-[1.3rem]  text-grey">About Me</h1>
+            <h1 className=" font-kumbh font-[600] text-[1.3rem]">About Me</h1>
            </div>
            <div className="first-row flex gap-6 mt-8">
             <img src={habeeb} alt="" className="w-[15rem] h-[15rem]" />

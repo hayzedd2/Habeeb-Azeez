@@ -6,7 +6,7 @@ import Icon3 from "../images/Frame (2).svg";
 import Icon4 from "../images/Frame (3).svg";
 const Navbar = () => {
   return (
-    <nav className="bg-[#111315] text-white nav-border fixed top-0 right-0 left-0 z-50 md:bg-blue-500 lg:bg-transparent ">
+    <nav className="bg-[#111315] text-white nav-border fixed top-0 right-0 left-0 z-50 md:bg-blue-500 lg:bg-[#111315] ">
       <div className="nav-grid flex">
         <div className="nav-logo  basis-[20%] flex flex-wrap gap-3 py-4 pl-8 nav-links-border">
           <img src={profile} alt="" />
