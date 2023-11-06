@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700;800;900&display=swap");
-body{
+body {
   overflow-x: hidden;
 }
 html {
@@ -15,17 +15,17 @@ html {
 .nav-border {
   border-bottom: 1.5px solid #1f2123;
 }
-.footer-border{
+.footer-border {
   border-top: 1.5px solid #1f2123;
 }
 .classic-border {
   border: 1.5px solid #ffffff;
 }
 .sidebar-anchor {
-  @apply flex  font-kumbh  gap-3 px-5 py-3  rounded-lg items-center  cursor-pointer text-[#CFD0D0] ;
+  @apply flex  font-kumbh  gap-3 px-5 py-3  rounded-lg items-center  cursor-pointer text-[#CFD0D0];
 }
 .sidebar-links {
-  @apply font-[500] mt-[0.3rem] ;
+  @apply font-[500] mt-[0.3rem];
 }
 .sidebar-diff-links {
   @apply flex gap-3 font-kumbh  pl-4 py-3 rounded-lg items-center justify-between cursor-pointer text-[#CFD0D0];
@@ -33,28 +33,254 @@ html {
 .sidebar-attach {
   @apply float-right  font-kumbh font-[600] w-[24px] h-[24px] flex items-center justify-center rounded-[4px];
 }
-.sidebar-placeholder{
-  @apply font-kumbh font-[600]
+.sidebar-placeholder {
+  @apply font-kumbh font-[600];
 }
-.links-holder{
-  @apply flex flex-col mt-4 gap-3
+.links-holder {
+  @apply flex flex-col mt-4 gap-3;
 }
-.active{
-  @apply bg-[#1c2023] text-white  flex  font-kumbh  gap-3 px-5 py-3  rounded-lg items-center  cursor-pointer 
+.active {
+  @apply bg-[#1c2023] text-white  flex  font-kumbh  gap-3 px-5 py-3  rounded-lg items-center  cursor-pointer;
 }
-.diff-active{
-  @apply flex gap-3 font-kumbh  pl-4 py-3 pr-2 rounded-lg items-center justify-between cursor-pointer text-white bg-[#1c2023]
+.diff-active {
+  @apply flex gap-3 font-kumbh  pl-4 py-3 pr-2 rounded-lg items-center justify-between cursor-pointer text-white bg-[#1c2023];
 }
-.hero-text-h1{
-  @apply font-kumbh leading-[4.4rem] font-[700] text-[2.7rem] text-white
+.hero-text-h1 {
+  @apply font-kumbh leading-[4.4rem] font-[700] text-[2.7rem] text-white;
 }
-.hero-text-p{
-  @apply font-kumbh leading-[2.5rem] font-[500] text-[1.15rem] text-white mt-4
+.hero-text-p {
+  @apply font-kumbh leading-[2.5rem] font-[500] text-[1.15rem] text-white mt-4;
 }
-.ps-p{
-  @apply font-kumbh leading-[2.4rem] font-[500] text-[1.15rem] text-grey
+.ps-p {
+  @apply font-kumbh leading-[2.4rem] font-[500] text-[1.15rem] text-grey;
 }
 .scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.btn-1 {
+  @apply font-kumbh bg-[#FFBD6A] rounded-[6px] text-[0.9rem] w-[15.3rem] font-[700] h-[3.36rem] flex items-center justify-center;
+}
+.btn-2 {
+  @apply font-kumbh border border-[#FFBD6A] rounded-[6px] text-[0.9rem] w-[15.3rem] font-[700] h-[3.36rem] flex items-center bg-transparent justify-center text-[#FFBD6A];
+}
+.bg-skills {
+  @apply flex items-center justify-center text-[#111315] font-kumbh text-[0.9rem] rounded-[8px] h-[3rem] font-[600];
+}
+.btn-resume {
+  @apply underline font-kumbh rounded-[4px] text-[#FFBD6A] bg-transparent underline-offset-2  w-[12.8rem] h-[3.3rem] flex items-center justify-center;
+  border: 2px solid #ffbd6a;
+}
+.work-placeholder {
+  @apply font-kumbh font-[600] text-[0.95rem];
+}
+.work-box {
+  @apply text-grey rounded-[6px] bg-[#1c2023] px-4 py-4 w-[23.4rem] mt-5;
+}
+.work-box-grid {
+  @apply text-grey rounded-[6px] bg-[#1c2023] px-4 py-4;
+}
+.heading {
+  @apply flex justify-between items-center font-kumbh font-[600] text-[0.95rem];
+}
+.heading h6 {
+  @apply text-[#FFBD6A] bg-[#37332c] p-1 px-2 rounded-[4px] text-[0.8rem];
+}
+.bullet-border {
+  @apply flex items-center justify-center w-5 h-5 rounded-full;
+  border: 1px solid #ffbd6a;
+}
+.bullet-bg {
+  @apply w-3 h-3 rounded-full bg-[#FFBD6A];
+}
+.bullet-text {
+  @apply font-kumbh font-[500] text-[0.9rem] flex flex-col gap-2;
+}
+.grid-border {
+  border-right: 1.5px solid #2c2e30;
+  border-left: 1.5px solid #2c2e30;
+}
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+.case-study-box-1 {
+  @apply px-5 pt-4 rounded-[9px] font-kumbh;
+}
+.case-study-box-2 {
+  @apply pl-5 pt-4 rounded-[9px] font-kumbh text-black;
+}
+.case-study-box-3 {
+  @apply px-5 pt-4 rounded-[9px] font-kumbh;
+}
+.case-study-box h3 {
+  @apply font-[700] font-kumbh;
+}
+.case-study-box h4 {
+  @apply my-2 text-[0.7rem] leading-5 font-[500];
+}
+.case-study-box p {
+  @apply mt-3 text-[0.65rem];
+}
+.reco-name {
+  @apply w-12 h-12 flex items-center justify-center font-kumbh text-[#111315] font-[700] text-[1rem] rounded-full;
+}
+.date {
+  @apply font-kumbh text-[0.8rem] bg-[#1c2023] flex items-center justify-center py-1;
+  border-right: 1.5px solid #2c2e30;
+}
+.cert-box {
+  @apply p-3 py-4 flex items-center justify-between font-kumbh text-white mt-2;
+}
+.cert-text {
+  border-right: none;
+}
+.cert-text h3 {
+  @apply text-[0.75rem] mb-2 leading-5 font-[600];
+}
+.cert-text p {
+  @apply text-[0.7rem];
+}
+.br {
+  border-right: 1.5px solid #2c2e30;
+}
+.bg-tags {
+  @apply px-3 py-1 font-kumbh font-[600] text-[#111315] text-[0.7rem] rounded-[4px];
+}
+.tags-placeholder {
+  @apply font-kumbh font-[600] text-[0.8rem] text-white;
+}
+.halo-box {
+  @apply mb-8;
+}
+.halo-box h3 {
+  @apply font-kumbh font-[600] text-[1.1rem] text-white underline underline-offset-[8px] decoration-[3px] decoration-[#ffbd6a];
+}
+.halo-box p {
+  @apply mt-5 font-kumbh text-[0.95rem] font-[500] leading-9;
+}
+.col-bg {
+  @apply w-[9.5rem] h-[9.5rem] rounded-full font-kumbh text-white font-[700] text-[0.9rem] flex flex-col items-center justify-center gap-2;
+}
+.halo-col-text {
+  @apply font-kumbh font-[400] text-[0.9rem] text-center leading-8 max-w-[11rem];
+}
+.col-flex {
+  @apply flex gap-5 flex-col items-center justify-center;
+}
+.project-timeline {
+  @apply rounded-[5px] bg-[#37332c] font-kumbh p-3 text-[0.8rem] text-[#ffbd6a] font-[600] text-center;
+}
+.halo-screen-grid {
+  @apply mb-10;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.company-grid {
+  @apply font-kumbh text-[0.9rem] text-white font-[500];
+}
+.company {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.br-company {
+  @apply py-2 px-4;
+  border-right: 1.5px solid black;
+}
+
+.an-text-1 a {
+  @apply underline decoration-blue-700 underline-offset-4 text-blue-700 py-5 px-4 bg-[#f3f3f3]  font-kumbh text-[0.95rem] font-[500];
+  border-right: 1px solid white;
+}
+.an-text-1 p {
+  @apply py-5 px-4  font-kumbh text-[0.95rem] font-[500] leading-7 text-black  bg-[#f3f3f3];
+  border-right: 1px solid white;
+}
+.an-text-1 ul li {
+  @apply pt-5 px-4  font-kumbh text-[0.95rem] font-[500] leading-7 text-black;
+}
+.an-text-1 ul {
+  @apply pb-10  bg-[#f3f3f3];
+  border-right: 1px solid white;
+}
+.other-ul ul {
+  @apply pb-16;
+}
+
+.an-box h3 {
+  @apply font-kumbh font-[600] text-[1.1rem] text-white underline underline-offset-[8px] decoration-[3px] decoration-[#ffbd6a];
+}
+.an-box-1 {
+  @apply mb-10  font-kumbh text-[0.95rem] font-[500] leading-9 text-white;
+}
+.color-div {
+  @apply flex items-center justify-center uppercase font-kumbh rounded-[4px] w-[13rem] h-[3rem] text-[0.9rem] font-[500];
+}
+.typo-box h3 {
+  @apply font-kumbh font-[600] text-[1.1rem] text-white underline underline-offset-[8px] decoration-[3px] decoration-[#ffbd6a];
+}
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.3rem;
+  @apply mt-5 mb-20;
+}
+.design-box {
+  @apply bg-[#1c2023] rounded-[10px] px-4 py-5 font-kumbh;
+}
+.design-box ul li {
+  @apply font-[500] text-[0.8rem] leading-6;
+}
+.design-box img {
+  @apply w-[1.8rem];
+}
+.user-experience-grid {
+  @apply grid grid-cols-2;
+  gap: 1.1rem;
+}
+.ux-bg {
+  @apply rounded-[25px] flex items-center justify-center py-2 font-kumbh font-[600] text-[0.75rem] text-[#1c2023] text-center;
+}
+.ux-grid h5 {
+  @apply font-kumbh font-[600] mb-2 text-[0.95rem];
+}
+.ux-grid h6 {
+  @apply font-kumbh font-[600] mb-3 text-[0.8rem];
+}
+.ux-month p {
+  @apply font-kumbh text-grey text-[0.8rem];
+}
+.grid-1{
+  border-left: 1px solid #2c2e30;
+  @apply pb-5
+}
+
+.survey-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: re6m;
+}
+.yes-bg{
+  @apply w-3 h-3 bg-[#455a64] rounded-[3px]
+}
+.no-bg{
+  @apply w-3 h-3 bg-[#eb5e55] rounded-[3px]
+}
+.yes-no h5{
+  @apply font-kumbh text-[0.9rem] font-[500];
+}
+.scroll-container {
+  overflow: auto;
   scrollbar-width: thin; 
   scrollbar-color: transparent transparent; 
 }
@@ -63,127 +289,6 @@ html {
   width: 8px;
 }
 
-.scroll-container::-webkit-scrollbar-thumb {
-  background: transparent; 
-}
-.btn-1{
-   @apply font-kumbh bg-[#FFBD6A] rounded-[6px] text-[0.9rem] w-[15.3rem] font-[700] h-[3.36rem] flex items-center justify-center
-}
-.btn-2{
-   @apply font-kumbh border border-[#FFBD6A] rounded-[6px] text-[0.9rem] w-[15.3rem] font-[700] h-[3.36rem] flex items-center bg-transparent justify-center text-[#FFBD6A]
-}
-.bg-skills{
-  @apply flex items-center justify-center text-[#111315] font-kumbh text-[0.9rem] rounded-[8px] h-[3rem] font-[600]
-}
-.btn-resume{
-  @apply underline font-kumbh rounded-[4px] text-[#FFBD6A] bg-transparent underline-offset-2  w-[12.8rem] h-[3.3rem] flex items-center justify-center ;
-  border: 2px solid #FFBD6A;
-}
-.work-placeholder{
-  @apply font-kumbh font-[600] text-[0.95rem]
-}
-.work-box{
-  @apply text-grey rounded-[6px] bg-[#1c2023] px-4 py-4 w-[23.4rem] mt-5
-}
-.work-box-grid{
-  @apply  text-grey rounded-[6px] bg-[#1c2023] px-4 py-4 
-}
-.heading{
-  @apply flex justify-between items-center font-kumbh font-[600] text-[0.95rem]
-}
-.heading h6{
-  @apply text-[#FFBD6A] bg-[#37332c] p-1 px-2 rounded-[4px] text-[0.8rem]
-}
-.bullet-border{
-  @apply flex items-center justify-center w-5 h-5 rounded-full ;
-  border: 1px solid #FFBD6A
-}
-.bullet-bg{
-  @apply  w-3 h-3 rounded-full bg-[#FFBD6A] ;
-}
-.bullet-text{
-  @apply font-kumbh font-[500] text-[0.9rem] flex flex-col gap-2
-}
-.grid-border{
-  border-right:  1.5px solid #2c2e30 ;
-  border-left:  1.5px solid #2c2e30 ;
-}
-.case-study-grid{
-  display: grid;
-  grid-template-columns:  repeat(auto-fit , minmax(350px,1fr));
-  gap: 1.5rem;
-}
-.case-study-box-1{
-  @apply px-5 pt-4 rounded-[9px] font-kumbh
-}
-.case-study-box-2{
-  @apply pl-5 pt-4 rounded-[9px] font-kumbh text-black 
-}
-.case-study-box-3{
-  @apply px-5 pt-4 rounded-[9px] font-kumbh
-}
-.case-study-box h3{
-  @apply  font-[700] font-kumbh
-}
-.case-study-box h4{
-  @apply  my-2 text-[0.7rem] leading-5 font-[500]
-}
-.case-study-box p{
-  @apply mt-3 text-[0.65rem] 
-}
-.reco-name{
-  @apply w-12 h-12 flex items-center justify-center font-kumbh text-[#111315] font-[700] text-[1rem] rounded-full
-}
-.date{
-  @apply font-kumbh text-[0.8rem] bg-[#1c2023] flex items-center justify-center py-1;
-  border-right:  1.5px solid #2c2e30 ;
-}
-.cert-box{
-  @apply p-3 py-4 flex items-center justify-between font-kumbh text-white mt-2 ;
- 
-}
-.cert-text{
-  border-right: none;
-}
-.cert-text h3{
-  @apply text-[0.75rem] mb-2 leading-5 font-[600]
-}
-.cert-text p{
-  @apply text-[0.7rem]
-}
-.br{
-  border-right:  1.5px solid #2c2e30;
-}
-.bg-tags{
-  @apply px-3 py-1 font-kumbh font-[600] text-[#111315] text-[0.7rem] rounded-[4px]
-}
-.tags-placeholder{
-  @apply font-kumbh font-[600] text-[0.8rem] text-white
-}
-.halo-box{
-  @apply mb-8
-}
-.halo-box h3{
-  @apply font-kumbh font-[600] text-[1.1rem] text-white underline underline-offset-[8px] decoration-[3px] decoration-[#ffbd6a]
-}
-.halo-box p{
-  @apply mt-5 font-kumbh text-[0.9rem] font-[500] leading-9 text-grey
-}
-.col-bg{
-  @apply w-[9.5rem] h-[9.5rem] rounded-full font-kumbh text-white font-[700] text-[0.9rem] flex flex-col items-center justify-center gap-2
-}
-.halo-col-text{
-  @apply font-kumbh font-[400] text-[0.9rem] text-grey text-center leading-8 max-w-[11rem]
-}
-.col-flex{
-  @apply  flex gap-5 flex-col items-center justify-center
-}
-.project-timeline{
-  @apply rounded-[5px] bg-[#37332c] font-kumbh p-3 text-[0.8rem] text-[#ffbd6a] font-[600] text-center
-}
-.halo-screen-grid{
-  @apply mb-10;
-  display: grid;
-  grid-template-columns:  repeat(auto-fit , minmax(250px,1fr));
-  gap: 1.5rem;
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
 }

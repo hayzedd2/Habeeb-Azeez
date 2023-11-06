@@ -9,6 +9,7 @@ import CaseStudy from "./components/CaseStudy";
 import Recommendations from "./components/Recommendations";
 import Certifications from "./components/Certifications";
 import HaloInvest from "./components/HaloInvest";
+import Express from "./components/Express";
 
 
 
@@ -22,6 +23,7 @@ const RoutesList = () => {
       <Route path="/recommendations" element={<Recommendations/>} />
       <Route path="/certifications" element={<Certifications/>} />
       <Route path="/case-study/halo-invest" element={<HaloInvest/>} />
+      <Route path="/case-study/express" element={<Express/>} />
     </Routes>
   );
 };

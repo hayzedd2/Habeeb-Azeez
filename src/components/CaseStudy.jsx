@@ -36,7 +36,7 @@ const CaseStudy = () => {
                         </div>
                     </div>
                   </Link>
-                  <Link>
+                  <Link to={'/case-study/express'}>
                   <div className="case-study-box-2 case-study-box bg-[#FFBD6A]">
                         <h3>Express Mobile Application</h3>
                         <h4 className='max-w-[17rem]'>A step-by step solution to the process of ordering a courier delivery service on mobile devices.</h4>

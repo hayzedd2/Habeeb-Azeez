@@ -11,34 +11,37 @@ import book from "../images/book.svg";
 import pen from "../images/Frame3.svg";
 import develop from "../images/develop.svg";
 import text from "../images/text.svg";
-import image1 from '../images/Splashscreen 3.png'
-import image2 from '../images/Onboarding 5 2.png'
-import image3 from '../images/Onboarding 4 2.png'
-import image4 from '../images/Onboarding 6 2.png'
-import image5 from '../images/Empty 6.png'
-import image6 from '../images/Empty 7.png'
-import image7 from '../images/Empty-1 1.png'
-import image8 from '../images/Empty-2 1.png'
-import image9 from '../images/Dashboard 3.png'
-import image10 from '../images/Dashboard-1 2.png'
-import image11 from '../images/Add Money 1.png'
-import image12 from '../images/Send Money 1.png'
-import image13 from '../images/savings-1 1.png'
-import image14 from '../images/Goal 1.png'
-import image15 from '../images/savings 1.png'
-import image16 from '../images/My master funds 1.png'
-import image17 from '../images/investments 1.png'
-import image18 from '../images/3 Bedroom Flat 1.png'
-import image19 from '../images/Naira Funds 1.png'
-import image20 from '../images/Naira Funds-1 1.png'
-import image21 from '../images/Referall 1.png'
-import image22 from '../images/More 2.png'
-import image23 from '../images/Profile 2.png'
-import image24 from '../images/virtual 1.png'
-import image25 from '../images/Manage Card 1.png'
-import image26 from '../images/Edit your Public Profile 1.png'
-import image27 from '../images/About Community 1.png'
-import image28 from '../images/Add Card 1.png'
+import image1 from "../images/Splashscreen 3.png";
+import image2 from "../images/Onboarding 5 2.png";
+import image3 from "../images/Onboarding 4 2.png";
+import image4 from "../images/Onboarding 6 2.png";
+import image5 from "../images/Empty 6.png";
+import image6 from "../images/Empty 7.png";
+import image7 from "../images/Empty-1 1.png";
+import image8 from "../images/Empty-2 1.png";
+import image9 from "../images/Dashboard 3.png";
+import image10 from "../images/Dashboard-1 2.png";
+import image11 from "../images/Add Money 1.png";
+import image12 from "../images/Send Money 1.png";
+import image13 from "../images/savings-1 1.png";
+import image14 from "../images/Goal 1.png";
+import image15 from "../images/savings 1.png";
+import image16 from "../images/My master funds 1.png";
+import image17 from "../images/investments 1.png";
+import image18 from "../images/3 Bedroom Flat 1.png";
+import image19 from "../images/Naira Funds 1.png";
+import image20 from "../images/Naira Funds-1 1.png";
+import image21 from "../images/Referall 1.png";
+import image22 from "../images/More 2.png";
+import image23 from "../images/Profile 2.png";
+import image24 from "../images/virtual 1.png";
+import image25 from "../images/Manage Card 1.png";
+import image26 from "../images/Edit your Public Profile 1.png";
+import image27 from "../images/About Community 1.png";
+import image28 from "../images/Add Card 1.png";
+import Aa from "../images/Aa.svg";
+import Chioma from '../images/Frame 3232834.png'
+import analysisImg from '../images/Group 625889.png'
 const HaloInvest = () => {
   return (
     <>
@@ -47,7 +50,7 @@ const HaloInvest = () => {
         <div className="w-1/5">
           <SideBar />
         </div>
-        <div className="w-4/5 max-h-screen overflow-auto">
+        <div className="w-4/5 max-h-screen overflow-y-auto overflow-x-hidden">
           <div className="pt-[8rem]">
             <div className="   text-white ">
               <div
@@ -73,7 +76,7 @@ const HaloInvest = () => {
                     className="w-full"
                     style={{ borderBottom: "1.5px solid #2c2e30" }}
                   >
-                    <div className="flex  w-[66%] items-center justify-between mt-5 pb-6">
+                    <div className="flex  w-full items-center flex-wrap gap-10 mt-5 pb-6">
                       <div className="tags flex gap-2 items-center ">
                         <img src={tag} alt="" className="w-[1.2rem]" />
                         <div className="flex gap-2 items-center">
@@ -263,6 +266,112 @@ const HaloInvest = () => {
                     </div>
                   </div>
                 </div>
+                <div className="analysis">
+                  <div className="halo-box">
+                    <h3>Competitive Analysis</h3>
+                  </div>
+                  <div className=" overflow-auto scroll-container">
+                  <img src={analysisImg} className="min-w-[70rem]" alt="" />
+                  </div>
+                  
+                </div>
+                <div className="advantage">
+                  <div className=" an-box mb-7 mt-16">
+                    <h3>Advantages of Halo Invest over other competitors</h3>
+                  </div>
+                  <div className="flex flex-col gap-6  an-box-1 ">
+                    <p>
+                      <span className="font-[700]"> Low Fees</span>- Halo Invest
+                      offers some of the lowest fees in the market, with no
+                      hidden fees and transparent pricing. We believe that
+                      everyone should have access to affordable investment and
+                      savings options, which is why we are committed to keeping
+                      our fees low.
+                    </p>
+                    <p>
+                      <span className="font-[700]">
+                        Diverse Investment Options
+                      </span>
+                      - At Halo Invest, we understand that each investor has
+                      unique financial goals and preferences. That's why we
+                      offer a wide range of investment options, including bonds,
+                      mutual funds, commodities, and real estate. Our platform
+                      allows you to diversify your portfolio and invest in the
+                      assets that matter most to you.
+                    </p>
+                    <p>
+                      <span className="font-[700]">Intelligent Automation</span>
+                      - With Halo Invest, you can be sure that your investment
+                      and savings portfolios are optimized for your unique
+                      financial situation. Our platform uses AI and machine
+                      learning to analyze your spending habits, income, and risk
+                      tolerance to make personalized investment and savings
+                      recommendations. You can rest assured that your
+                      investments and savings are in good hands with Halo
+                      Invest.
+                    </p>
+                  </div>
+                </div>
+                <div >
+                  <div className="halo-box">
+                    <h3>Balancing user needs with product goals</h3>
+                  </div>
+                  <div className=" overflow-auto scroll-container">
+                  <img src={Chioma} className="min-w-[70rem]" alt="" />
+                  </div>
+                </div>
+                <div className="typography">
+                  <div className="typo-box">
+                    <h3>Typography and colors</h3>
+                    <div className="typo flex items-center justify-between  flex-wrap mt-6">
+                      <div className=" ">
+                        <img
+                          src={Aa}
+                          className="w-[10.5rem] h-[10.5rem]"
+                          alt=""
+                        />
+                      </div>
+                      <div className="text-left font-kumbh  ">
+                        <h4 className="text-[0.8rem]">FONT FAMILY</h4>
+                        <h1 className="text-[1.7rem] font-[500] mt-3">
+                          Circular Std
+                        </h1>
+                      </div>
+                      <div className="text-left font-kumbh">
+                        <div className="flex gap-4 font-kumbh font-[500] text-[0.85rem]">
+                          <p>Book</p>
+                          <p>Medium</p>
+                          <p>Bold</p>
+                        </div>
+                        <div className="flex gap-10  font-kumbh font-[500] text-[0.85rem] mt-6 flex-wrap leading-7 ">
+                          <p className="">
+                            AaBbCcDdEeFfGgHhIiJjKkLlMmNn <br />OoPpQqRrSsTtUuVvWwXxYyZz
+                          </p>
+                          <p>
+                            0123456789 <br /> !@#$%^&*()
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="colors flex flex-wrap items-center justify-between  mb-16 mt-8">
+                      <div className="color-div bg-[#143284]">
+                        <p>#143284</p>
+                      </div>
+                      <div className="color-div bg-[#fd9727]">
+                        <p>#fd9727</p>
+                      </div>
+                      <div className="color-div bg-[#0d1e4f]">
+                        <p>#0d1e4f</p>
+                      </div>
+                      <div className="color-div bg-[#ffffff] text-black">
+                        <p>#ffffff</p>
+                      </div>
+                      <div className="color-div bg-[#def1fc] text-black">
+                        <p>#0def1fc</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="project-process">
                   <div className="onboarding">
                     <div className="halo-box">
@@ -278,66 +387,81 @@ const HaloInvest = () => {
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                        <img src={image1} alt="" />
-                        <img src={image2} alt="" />
-                        <img src={image3} alt="" />
-                        <img src={image4} alt="" />
+                      <img src={image1} alt="" />
+                      <img src={image2} alt="" />
+                      <img src={image3} alt="" />
+                      <img src={image4} alt="" />
                     </div>
                   </div>
                   <div className="login">
                     <div className="halo-box">
                       <h3>Easy Sign Up and Login Process</h3>
                       <p>
-                      This process typically involves a clear and simple instructions, with minimal steps required to create an account or log in. The product also utilize email  verification to confirm the user's identity, while also providing additional security measures to protect their data. An easy sign-up and login process can help to create a positive first impression and encourage users to engage with the platform more frequently.
+                        This process typically involves a clear and simple
+                        instructions, with minimal steps required to create an
+                        account or log in. The product also utilize email
+                        verification to confirm the user's identity, while also
+                        providing additional security measures to protect their
+                        data. An easy sign-up and login process can help to
+                        create a positive first impression and encourage users
+                        to engage with the platform more frequently.
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                        <img src={image5} alt="" />
-                        <img src={image6} alt="" />
-                        <img src={image7} alt="" />
-                        <img src={image8} alt="" />
+                      <img src={image5} alt="" />
+                      <img src={image6} alt="" />
+                      <img src={image7} alt="" />
+                      <img src={image8} alt="" />
                     </div>
                   </div>
                   <div className="homepage">
                     <div className="halo-box">
                       <h3>Homepage + Quick actions</h3>
                       <p>
-                      The Homepage features the screens for a first time user for which the major action to perform is to add money and also for an existing user. It also features quick actions that users can easily take to perform a quick operation such as add money and send money.
+                        The Homepage features the screens for a first time user
+                        for which the major action to perform is to add money
+                        and also for an existing user. It also features quick
+                        actions that users can easily take to perform a quick
+                        operation such as add money and send money.
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                        <img src={image9} alt="" />
-                        <img src={image10} alt="" />
-                        <img src={image11} alt="" />
-                        <img src={image12} alt="" />
+                      <img src={image9} alt="" />
+                      <img src={image10} alt="" />
+                      <img src={image11} alt="" />
+                      <img src={image12} alt="" />
                     </div>
                   </div>
                   <div className="savings">
                     <div className="halo-box">
                       <h3>Savings</h3>
                       <p>
-                      The product has 4 major savings plan at the moment which are the goals, fixed, league(public and private) and susu plans.
+                        The product has 4 major savings plan at the moment which
+                        are the goals, fixed, league(public and private) and
+                        susu plans.
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                        <img src={image13} alt="" />
-                        <img src={image14} alt="" />
-                        <img src={image15} alt="" />
-                        <img src={image16} alt="" />
+                      <img src={image13} alt="" />
+                      <img src={image14} alt="" />
+                      <img src={image15} alt="" />
+                      <img src={image16} alt="" />
                     </div>
                   </div>
                   <div className="investments">
                     <div className="halo-box">
                       <h3>Investments</h3>
                       <p>
-                      The product has 4 major Investments categories at the moment which are the Naira funds, Dollar Funds and Halal Funds 
+                        The product has 4 major Investments categories at the
+                        moment which are the Naira funds, Dollar Funds and Halal
+                        Funds
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                        <img src={image17} alt="" />
-                        <img src={image18} alt="" />
-                        <img src={image19} alt="" />
-                        <img src={image20} alt="" />
+                      <img src={image17} alt="" />
+                      <img src={image18} alt="" />
+                      <img src={image19} alt="" />
+                      <img src={image20} alt="" />
                     </div>
                   </div>
                   <div className="random">
@@ -345,32 +469,52 @@ const HaloInvest = () => {
                       <h3>Other Random Screens</h3>
                     </div>
                     <div className="halo-screen-grid">
-                        <img src={image21} alt="" />
-                        <img src={image22} alt="" />
-                        <img src={image23} alt="" />
-                        <img src={image24} alt="" />
-                        <img src={image25} alt="" />
-                        <img src={image26} alt="" />
-                        <img src={image27} alt="" />
-                        <img src={image28} alt="" />
+                      <img src={image21} alt="" />
+                      <img src={image22} alt="" />
+                      <img src={image23} alt="" />
+                      <img src={image24} alt="" />
+                      <img src={image25} alt="" />
+                      <img src={image26} alt="" />
+                      <img src={image27} alt="" />
+                      <img src={image28} alt="" />
                     </div>
                   </div>
-                  <div className="random mt-5 pb-5 flex flex-col gap-8" style={{borderBottom : '2px solid #1f2123'}}>
+                  <div
+                    className="random mt-5 pb-5 flex flex-col gap-8"
+                    style={{ borderBottom: "2px solid #1f2123" }}
+                  >
                     <div className="halo-box">
                       <h3>Implementation</h3>
-                      <p>The implementation stage involved working closely with the development team to ensure that the design was implemented effectively and that the Mobile application was functioning as intended. This stage involved testing the app with various users with different devices to ensure it’s usability and seamless experience.</p>
+                      <p>
+                        The implementation stage involved working closely with
+                        the development team to ensure that the design was
+                        implemented effectively and that the Mobile application
+                        was functioning as intended. This stage involved testing
+                        the app with various users with different devices to
+                        ensure it’s usability and seamless experience.
+                      </p>
                     </div>
-                    
+
                     <div className="halo-box">
                       <h3>Learnings and Conclusions</h3>
-                      <p>For this project, I learned to work closely with design systems, strengthen my reach in the aspect of user interviews, learned, and practiced new ways to get the best feedbacks from users. I design icons to fit well into the projects. However, if I had more time, I would have expanded my user research so as to get more depth. Overall, I am proud of the role I played in this project, and the positive impact it had on the company's business. </p>
+                      <p>
+                        For this project, I learned to work closely with design
+                        systems, strengthen my reach in the aspect of user
+                        interviews, learned, and practiced new ways to get the
+                        best feedbacks from users. I design icons to fit well
+                        into the projects. However, if I had more time, I would
+                        have expanded my user research so as to get more depth.
+                        Overall, I am proud of the role I played in this
+                        project, and the positive impact it had on the company's
+                        business.{" "}
+                      </p>
                     </div>
-                    
                   </div>
                   <div className="thanks pt-8 pb-20 flex flex-col items-center justify-center gap-5">
                     <img src="" alt="" />
-                    <p className=" font-kumbh font-[600] text-[1.1rem]">Thank you for scrolling through this far.</p>
-
+                    <p className=" font-kumbh font-[600] text-[1.1rem]">
+                      Thank you for scrolling through this far.
+                    </p>
                   </div>
                 </div>
               </div>
