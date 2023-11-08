@@ -42,8 +42,8 @@ import image28 from "../images/Add Card 1.png";
 import Aa from "../images/Aa.svg";
 import Chioma from "../images/Frame 3232834.png";
 import analysisImg from "../images/Group 625889.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-const HaloInvest = () => {
+import { LazyLoadImage  ,trackWindowScroll} from "react-lazy-load-image-component";
+const HaloInvest = ({scrollPosition}) => {
   return (
     <>
       <Navbar />
@@ -272,7 +272,14 @@ const HaloInvest = () => {
                     <h3>Competitive Analysis</h3>
                   </div>
                   <div className=" overflow-auto scroll-container">
-                    <img src={analysisImg} className="min-w-[70rem]" alt="" />
+                  <LazyLoadImage
+                        alt="LOADING"
+                        src={analysisImg}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                        className="min-w-[70rem]"
+                      />
                   </div>
                 </div>
                 <div className="advantage">
@@ -317,7 +324,16 @@ const HaloInvest = () => {
                     <h3>Balancing user needs with product goals</h3>
                   </div>
                   <div className=" overflow-auto scroll-container mb-10">
-                    <img src={Chioma} className="min-w-[70rem]" alt="" />
+                    <LazyLoadImage
+                        alt="LOADING"
+                        src={Chioma}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                        className="min-w-[70rem]"
+                        scrollPosition={scrollPosition}
+                      />
+                    
                   </div>
                 </div>
                 <div className="typography">
@@ -394,6 +410,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       <LazyLoadImage
                         alt="LOADING"
@@ -401,6 +418,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       <LazyLoadImage
                         alt="LOADING"
@@ -408,6 +426,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       <LazyLoadImage
                         alt="LOADING"
@@ -415,6 +434,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       
                     </div>
@@ -440,6 +460,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       <LazyLoadImage
                         alt="LOADING"
@@ -447,6 +468,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       <LazyLoadImage
                         alt="LOADING"
@@ -454,6 +476,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -461,6 +484,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                     </div>
                   </div>
@@ -482,6 +506,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -489,6 +514,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -496,6 +522,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -503,6 +530,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                     </div>
                   </div>
@@ -522,6 +550,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -529,6 +558,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -536,6 +566,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -543,6 +574,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                     </div>
                   </div>
@@ -562,6 +594,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -569,6 +602,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                       <LazyLoadImage
                         alt="LOADING"
@@ -576,6 +610,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -583,6 +618,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                     </div>
                   </div>
@@ -597,6 +633,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -604,6 +641,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -611,6 +649,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -618,6 +657,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -625,6 +665,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -632,6 +673,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -639,6 +681,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                        <LazyLoadImage
                         alt="LOADING"
@@ -646,6 +689,7 @@ const HaloInvest = () => {
                         effect="blur"
                         opacity={1.2}
                         placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
                       />
                     </div>
                   </div>
@@ -696,4 +740,4 @@ const HaloInvest = () => {
   );
 };
 
-export default HaloInvest;
+export default trackWindowScroll(HaloInvest);

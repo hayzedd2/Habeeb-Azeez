@@ -109,8 +109,8 @@ html {
   border-left: 1.5px solid #2c2e30;
 }
 .case-study-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+  @apply grid grid-cols-3;
   gap: 1.5rem;
 }
 .case-study-box-1 {

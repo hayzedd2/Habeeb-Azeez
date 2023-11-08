@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import tag from "../images/tag.svg";
@@ -21,7 +25,31 @@ import personaImg from "../images/Ellipse 30.svg";
 import personaImg1 from "../images/Ellipse 23.svg";
 import projectIcon from "../images/Group 625814.svg";
 import sketch from "../images/Frame 3232823.png";
-const Express = () => {
+import image1 from "../images/Onboarding 8.png";
+import image2 from "../images/Registration.png";
+import image3 from "../images/Dashboard.png";
+import image4 from "../images/Step 14.png";
+import image5 from "../images/Step 12 2.png";
+import image6 from "../images/Step 13 2.png";
+import image7 from "../images/SPLASHSCREEN MOCKUP 2.png";
+import image8 from "../images/ONBOARDING 1 MOCKUP 2.png";
+import image9 from "../images/ONBOARDING 2 MOCKUP.png";
+import image10 from "../images/ONBOARDING MOCKUP 4.png";
+import image11 from "../images/SIGN UP MOCKUP 2.png";
+import image12 from "../images/LOGIN MOCKUP EMPTY.png";
+import image13 from "../images/RECOVER PASSWORD MOCKUP.png";
+import image14 from "../images/OTP VERICATION MOCKUP.png";
+import image16 from '../images/RESET PASSWORD SUCCESSFUL MOCKUP.png'
+import image15 from '../images/RESET PASSWORD MOCKUP.png'
+import image17 from "../images/HOMEPAGE MOCKUP 2.png";
+import image18 from "../images/SEND A PACKAGE STEP 1  MOCKUP.png";
+import image19 from '../images/SEND A PACKAGE STEP 2 MOCKUP 2.png'
+import image20 from '../images/SEND A PACKAGE STEP 3 MOCKUP 2.png'
+import image21 from '../images/SEND A PACKAGE STEP 3 MOCKUP 2.png'
+import image22 from '../images/SEND A PACKAGE STEP 4 MOCKUP 2.png'
+import image23 from '../images/SEND A PACKAGE STEP 5 MOCKUP 2.png'
+
+const Express = ({ scrollPosition }) => {
   return (
     <>
       <Navbar />
@@ -401,6 +429,174 @@ const Express = () => {
                     </div>
                   </div>
                 </div>
+                <div className="wireframes">
+                  <div className="halo-box">
+                    <h3>Wireframes</h3>
+                    <p>
+                      With wireframes, I was able to lay down the final base for
+                      the design.
+                    </p>
+                  </div>
+                  <div className="halo-screen-grid">
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image1}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image2}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image3}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image4}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image5}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image6}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  </div>
+                </div>
+                <div className="onboarding">
+                  <div className="halo-box">
+                    <h3>Onboarding Screens</h3>
+                    <p>
+                      To craft engaging onboarding user experience that tells a
+                      short story and easy to use, leaves a positive first
+                      impression that excites users.
+                    </p>
+                   
+                  </div>
+                  <div className="halo-screen-grid">
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image7}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image8}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image9}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image10}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                        scrollPosition={scrollPosition}
+                      />
+                    </div>
+                </div>
+                <div className="login">
+                  <div className="halo-box">
+                    <h3>Login, Registration and Reset Password Screens</h3>
+                  </div>
+                  <div className="halo-screen-grid">
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image11}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image12}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image13}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image14}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image15}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image16}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  </div>
+                </div>
+                <div className="homepage">
+                  <div className="halo-box">
+                    <h3>Homepage + Send a Package</h3>
+                    <p>This is a five step process that guides the user on how to send a package and also to compare different courier service prices.</p>
+                  </div>
+                  <div className="halo-screen-grid">
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -410,4 +606,4 @@ const Express = () => {
   );
 };
 
-export default Express;
+export default trackWindowScroll(Express);
