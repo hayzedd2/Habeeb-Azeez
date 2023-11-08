@@ -10,7 +10,7 @@ import Recommendations from "./components/Recommendations";
 import Certifications from "./components/Certifications";
 import HaloInvest from "./components/HaloInvest";
 import Express from "./components/Express";
-
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 const RoutesList = () => {

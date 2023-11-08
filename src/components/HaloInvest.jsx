@@ -40,8 +40,9 @@ import image26 from "../images/Edit your Public Profile 1.png";
 import image27 from "../images/About Community 1.png";
 import image28 from "../images/Add Card 1.png";
 import Aa from "../images/Aa.svg";
-import Chioma from '../images/Frame 3232834.png'
-import analysisImg from '../images/Group 625889.png'
+import Chioma from "../images/Frame 3232834.png";
+import analysisImg from "../images/Group 625889.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const HaloInvest = () => {
   return (
     <>
@@ -271,9 +272,8 @@ const HaloInvest = () => {
                     <h3>Competitive Analysis</h3>
                   </div>
                   <div className=" overflow-auto scroll-container">
-                  <img src={analysisImg} className="min-w-[70rem]" alt="" />
+                    <img src={analysisImg} className="min-w-[70rem]" alt="" />
                   </div>
-                  
                 </div>
                 <div className="advantage">
                   <div className=" an-box mb-7 mt-16">
@@ -312,12 +312,12 @@ const HaloInvest = () => {
                     </p>
                   </div>
                 </div>
-                <div >
+                <div>
                   <div className="halo-box">
                     <h3>Balancing user needs with product goals</h3>
                   </div>
-                  <div className=" overflow-auto scroll-container">
-                  <img src={Chioma} className="min-w-[70rem]" alt="" />
+                  <div className=" overflow-auto scroll-container mb-10">
+                    <img src={Chioma} className="min-w-[70rem]" alt="" />
                   </div>
                 </div>
                 <div className="typography">
@@ -345,7 +345,8 @@ const HaloInvest = () => {
                         </div>
                         <div className="flex gap-10  font-kumbh font-[500] text-[0.85rem] mt-6 flex-wrap leading-7 ">
                           <p className="">
-                            AaBbCcDdEeFfGgHhIiJjKkLlMmNn <br />OoPpQqRrSsTtUuVvWwXxYyZz
+                            AaBbCcDdEeFfGgHhIiJjKkLlMmNn <br />
+                            OoPpQqRrSsTtUuVvWwXxYyZz
                           </p>
                           <p>
                             0123456789 <br /> !@#$%^&*()
@@ -387,10 +388,35 @@ const HaloInvest = () => {
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                      <img src={image1} alt="" />
-                      <img src={image2} alt="" />
-                      <img src={image3} alt="" />
-                      <img src={image4} alt="" />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image1}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image2}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image3}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image4}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      
                     </div>
                   </div>
                   <div className="login">
@@ -408,10 +434,34 @@ const HaloInvest = () => {
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                      <img src={image5} alt="" />
-                      <img src={image6} alt="" />
-                      <img src={image7} alt="" />
-                      <img src={image8} alt="" />
+                    <LazyLoadImage
+                        alt="LOADING"
+                        src={image5}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image6}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image7}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image8}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
                     </div>
                   </div>
                   <div className="homepage">
@@ -426,10 +476,34 @@ const HaloInvest = () => {
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                      <img src={image9} alt="" />
-                      <img src={image10} alt="" />
-                      <img src={image11} alt="" />
-                      <img src={image12} alt="" />
+                    <LazyLoadImage
+                        alt="LOADING"
+                        src={image9}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image10}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image11}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image12}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
                     </div>
                   </div>
                   <div className="savings">
@@ -442,10 +516,34 @@ const HaloInvest = () => {
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                      <img src={image13} alt="" />
-                      <img src={image14} alt="" />
-                      <img src={image15} alt="" />
-                      <img src={image16} alt="" />
+                    <LazyLoadImage
+                        alt="LOADING"
+                        src={image13}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image14}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image15}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image16}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
                     </div>
                   </div>
                   <div className="investments">
@@ -458,10 +556,34 @@ const HaloInvest = () => {
                       </p>
                     </div>
                     <div className="halo-screen-grid">
-                      <img src={image17} alt="" />
-                      <img src={image18} alt="" />
-                      <img src={image19} alt="" />
-                      <img src={image20} alt="" />
+                    <LazyLoadImage
+                        alt="LOADING"
+                        src={image17}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image18}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                      <LazyLoadImage
+                        alt="LOADING"
+                        src={image19}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image20}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
                     </div>
                   </div>
                   <div className="random">
@@ -469,14 +591,62 @@ const HaloInvest = () => {
                       <h3>Other Random Screens</h3>
                     </div>
                     <div className="halo-screen-grid">
-                      <img src={image21} alt="" />
-                      <img src={image22} alt="" />
-                      <img src={image23} alt="" />
-                      <img src={image24} alt="" />
-                      <img src={image25} alt="" />
-                      <img src={image26} alt="" />
-                      <img src={image27} alt="" />
-                      <img src={image28} alt="" />
+                    <LazyLoadImage
+                        alt="LOADING"
+                        src={image21}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image22}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image23}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image24}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image25}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image26}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image27}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
+                       <LazyLoadImage
+                        alt="LOADING"
+                        src={image28}
+                        effect="blur"
+                        opacity={1.2}
+                        placeholderSrc="black-and-white"
+                      />
                     </div>
                   </div>
                   <div

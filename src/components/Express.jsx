@@ -11,8 +11,16 @@ import svg1 from "../images/Group 625791.svg";
 import svg2 from "../images/Group 625792.svg";
 import svg3 from "../images/Group 625793.svg";
 import svg4 from "../images/Group 625794.svg";
-import subtract1 from '../images/Subtract.svg'
-
+import surveyImg1 from "../images/Group 625811.svg";
+import surveyImg2 from "../images/Group 625810.svg";
+import surveyImg3 from "../images/Group 625809.svg";
+import surveyImg4 from "../images/Group 625812.svg";
+import surveyImg5 from "../images/Group 625813.svg";
+import uxImg from "../images/Group 625888.png";
+import personaImg from "../images/Ellipse 30.svg";
+import personaImg1 from "../images/Ellipse 23.svg";
+import projectIcon from "../images/Group 625814.svg";
+import sketch from "../images/Frame 3232823.png";
 const Express = () => {
   return (
     <>
@@ -183,94 +191,9 @@ const Express = () => {
                     </div>
                   </div>
                 </div>
-                <div className="user-experience mb-20">
-                  <div className="flex items-center justify-between">
-                    <div className="w-4 h-4 rounded-full bg-[#ffbd6a] flex items-center justify-center">
-                      <div className="bg-[#111315] w-2 h-2 rounded-full"></div>
-                    </div>
-                    <div className="w-4 h-4 rounded-full bg-[#ffbd6a] flex items-center justify-center">
-                      <div className="bg-[#111315] w-2 h-2 rounded-full"></div>
-                    </div>
-                  </div>
-                  <div className="user-experience-grid px-2">
-                    <div className="grid-1 px-5 ux-grid">
-                      <h5>User Experience</h5>
-                      <h6>Week 1</h6>
-                      <div className="flex items-center ux-month justify-between my-6">
-                        <p>MON</p>
-                        <p>TUE</p>
-                        <p>WED</p>
-                        <p>THU</p>
-                        <p>FRI</p>
-                      </div>
-                      <div className="flex flex-col gap-5">
-                        <div
-                          className="w-full ux-bg bg-[#eb5e55]"
-                          style={{ color: "white" }}
-                        >
-                          <p>Research</p>
-                        </div>
-                        <div className="w-[23rem] ux-bg bg-[#d2bf55]">
-                          <p>Empathizing Problems & Solutions</p>
-                        </div>
-                        <div className="w-full flex items-center justify-center">
-                          <div className="w-[17rem] ux-bg bg-[#5386e4]">
-                            <p>Surveys and Interviews</p>
-                          </div>
-                        </div>
-                        <div className="w-full flex items-end pr-4 justify-end ">
-                          <div className="w-[11rem] ux-bg bg-[#ffa737]">
-                            <p>Userflows</p>
-                          </div>
-                        </div>
-                        <div className="w-full flex items-end pr-6 justify-end ">
-                          <div className="w-[13rem] ux-bg bg-[#00ffc5]">
-                            <p>Information Architecture </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      className="grid-1 px-5 ux-grid"
-                      style={{ borderRight: "1px solid #2c2e30" }}
-                    >
-                      <h5>User Experience</h5>
-                      <h6>Week 2</h6>
-                      <div className="flex items-center ux-month justify-between my-6">
-                        <p>MON</p>
-                        <p>TUE</p>
-                        <p>WED</p>
-                        <p>THU</p>
-                        <p>FRI</p>
-                      </div>
-                      <div className="flex flex-col gap-5">
-                        <div className="w-full ux-bg bg-[#fdf0d5]">
-                          <p>Visual Design</p>
-                        </div>
-
-                        <div className="w-full flex items-start justify-start">
-                          <div className="w-[10.5rem] ux-bg bg-[#fcaf58]">
-                            <p>Wireframes</p>
-                          </div>
-                        </div>
-                        <div className="w-full flex items-center justify-center">
-                          <div className="w-[18rem] ux-bg bg-[#53b3cb]">
-                            <p>High Fidelity Screens</p>
-                          </div>
-                        </div>
-                        <div className="w-full flex items-end pr-7 justify-end ">
-                          <div className="w-[11rem] ux-bg bg-[#00ffc5]">
-                            <p>Prototype</p>
-                          </div>
-                        </div>
-                        <div className="w-full flex items-end  justify-end ">
-                          <div className="w-[9rem] ux-bg bg-[#ffa737]">
-                            <p>User Testing </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                <div className="user-experience">
+                  <div className=" overflow-auto scroll-container mb-10">
+                    <img src={uxImg} className="min-w-[70rem]" alt="" />
                   </div>
                 </div>
                 <div className="survey">
@@ -285,68 +208,21 @@ const Express = () => {
                     </p>
                   </div>
                   <div className="survey-grid">
-                    
-                    <div className="halo-box">
-                        <p>Do you feel safe using online payment service?</p>
-                        <div className="flex gap-2">
-                            <img src={subtract1} alt="" />
-                            <div className="flex flex-col items-center border justify-center gap-2 yes-no">
-                                <div className="flex items-center justify-center gap-2">
-                                    <div className="yes-bg">
-
-                                    </div>
-                                    <h5 className="border ">Yes</h5>
-                                </div>
-                                <div className="flex items-center justify-center gap-2">
-                                    <div className="no-bg">
-
-                                    </div>
-                                    <h5>No</h5>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="survey-box">
+                      <img src={surveyImg1} alt="" />
                     </div>
-                    <div className="halo-box">
-                        <p>Do you feel safe using online payment service?</p>
-                        <div className="flex gap-2">
-                            <img src={subtract1} alt="" />
-                            <div className="flex flex-col items-center border justify-center gap-2 yes-no">
-                                <div className="flex items-center justify-center gap-2">
-                                    <div className="yes-bg">
-
-                                    </div>
-                                    <h5 className="border ">Yes</h5>
-                                </div>
-                                <div className="flex items-center justify-center gap-2">
-                                    <div className="no-bg">
-
-                                    </div>
-                                    <h5>No</h5>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="survey-box">
+                      <img src={surveyImg2} alt="" />
                     </div>
-                    <div className="halo-box">
-                        <p>Do you feel safe using online payment service?</p>
-                        <div className="flex gap-2">
-                            <img src={subtract1} alt="" />
-                            <div className="flex flex-col items-center border justify-center gap-2 yes-no">
-                                <div className="flex items-center justify-center gap-2">
-                                    <div className="yes-bg">
-
-                                    </div>
-                                    <h5 className="border ">Yes</h5>
-                                </div>
-                                <div className="flex items-center justify-center gap-2">
-                                    <div className="no-bg">
-
-                                    </div>
-                                    <h5>No</h5>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="survey-box">
+                      <img src={surveyImg3} alt="" />
                     </div>
-                   
+                    <div className="survey-box">
+                      <img src={surveyImg4} alt="" />
+                    </div>
+                    <div className="survey-box">
+                      <img src={surveyImg5} alt="" />
+                    </div>
                   </div>
                   <div className="halo-box">
                     <h3>Results from the survey</h3>
@@ -360,9 +236,7 @@ const Express = () => {
                 <div className="interview">
                   <div className="halo-box">
                     <h3>Interview Questions (Qualitative Research)</h3>
-                    <ul
-                      className=" mt-5 font-kumbh text-[0.95rem] font-[400] leading-10"
-                    >
+                    <ul className=" mt-5 font-kumbh text-[0.95rem] font-[400] leading-10">
                       <li>1. Can you tell me a bit about yourself?</li>
                       <li>2. What do you do for a living?</li>
                       <li>
@@ -370,12 +244,161 @@ const Express = () => {
                         ones?
                       </li>
                       <li>4. How often do you use the courier service?</li>
-                      <li>5. Do you trust the courier service riders out there?</li>
+                      <li>
+                        5. Do you trust the courier service riders out there?
+                      </li>
                       <li>6. How do you track your shipment?</li>
                       <li>7. How fast is the delivery process?</li>
-                      <li>8. Is there a standard price you pay for delivery?</li>
-                      <li>9. When was the last time you used a delivery service?</li>
+                      <li>
+                        8. Is there a standard price you pay for delivery?
+                      </li>
+                      <li>
+                        9. When was the last time you used a delivery service?
+                      </li>
                     </ul>
+                  </div>
+                </div>
+                <div className="scenario mb-10">
+                  <div className="halo-box">
+                    <h3>Scenario</h3>
+                    <p>
+                      During the research, i identified many different scenarios
+                      and i kept my focus and developed the following:
+                    </p>
+                  </div>
+                  <div className="scenario-grid flex">
+                    <div className="scenario-bg bg-[#002a48]">
+                      <h3>Scenario 1</h3>
+                      <p>There is no efficient way to track packages</p>
+                    </div>
+                    <div className="scenario-bg bg-[#eb5e55]">
+                      <h3>Scenario 2</h3>
+                      <p>
+                        People are unaware of standard courier delivery prices
+                      </p>
+                    </div>
+                    <div className="scenario-bg bg-[#fcaf58]">
+                      <h3>Scenario 3</h3>
+                      <p>Parcels usually get delayed</p>
+                    </div>
+                    <div className="scenario-bg bg-[#5386e4]">
+                      <h3>Scenario 4</h3>
+                      <p>Security and trust is a great concern</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="user-persona mb-10">
+                  <div className="halo-box">
+                    <h3>User Persona</h3>
+                    <p>
+                      The deep analysis of the survey helped me gather enough
+                      insights and typical patterns from the results of the
+                      survey. This made me come up with two different user
+                      personas.
+                    </p>
+                  </div>
+                  <div className="persona-grid">
+                    <div className="persona-box">
+                      <div className="user-box">
+                        <img src={personaImg} alt="" />
+                        <div>
+                          {" "}
+                          <h4>Ayinde Khaiyra</h4>
+                          <h6>Sales Manager</h6>
+                        </div>
+                      </div>
+                      <div className="flex flex-col gap-8 mt-5 persona-list ">
+                        <div>
+                          <h4>Pain Points</h4>
+                          <ul>
+                            <li>Trust and security issues</li>
+                            <li>No time to go the courier service office </li>
+                            <li>Longer delivery time</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4>Goals</h4>
+                          <ul>
+                            <li>
+                              To select registered and legalized courier service
+                            </li>
+                            <li>
+                              To use the app to order for a delivery service
+                            </li>
+                            <li>
+                              To select courier service that deliver in less
+                              than 2- 4 hours
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="persona-box">
+                      <div className="user-box">
+                        <img src={personaImg1} alt="" />
+                        <div>
+                          <h4>David Scotland</h4>
+                          <h6>Wholesaler</h6>
+                        </div>
+                      </div>
+                      <div className="flex flex-col gap-8 mt-5 persona-list">
+                        <div>
+                          <h4>Pain Points</h4>
+                          <ul>
+                            <li>No standard delivery prices</li>
+                            <li>No time to go the courier service office </li>
+                            <li>Longer delivery time</li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4>Goals</h4>
+                          <ul>
+                            <li>
+                              To have a standard delivery price depending on the
+                              package
+                            </li>
+                            <li>
+                              To use the app to order for a delivery service
+                            </li>
+                            <li>
+                              To select courier service that deliver in less
+                              than 2- 4 hours
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="project-goals mb-10">
+                  <div className="halo-box">
+                    <h3>Project Goals</h3>
+                  </div>
+                  <div className="flex gap-16">
+                    <div className="flex gap-3 projecticon items-center">
+                      <img src={projectIcon} className="w-5" alt="" />
+                      <p>Door-to-Door Courier Service</p>
+                    </div>
+                    <div className="flex gap-3 projecticon items-center">
+                      <img src={projectIcon} className="w-5" alt="" />
+                      <p>Real Time Package Tracking </p>
+                    </div>
+                    <div className="flex gap-3 projecticon items-center">
+                      <img src={projectIcon} className="w-5" alt="" />
+                      <p>Compare Courier Service Fee </p>
+                    </div>
+                  </div>
+                  <div className="my-8">
+                    <div className="halo-box">
+                      <h3>Project Goals</h3>
+                      <p>
+                        I started with sketching on paper and from there over a
+                        cup of tea, i landed on the desired sketches.
+                      </p>
+                    </div>
+                    <div className=" overflow-auto scroll-container">
+                      <img src={sketch} className="min-w-[70rem]" alt="" />
+                    </div>
                   </div>
                 </div>
               </div>
