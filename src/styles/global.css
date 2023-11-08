@@ -184,7 +184,7 @@ html {
   @apply mb-10;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  gap: 1.6rem;
 }
 .company-grid {
   @apply font-kumbh text-[0.9rem] text-white font-[500];
@@ -342,4 +342,10 @@ html {
 }
 .projecticon p{
   @apply font-kumbh text-[1rem] font-[400]
+}
+.ite-box ul li {
+  @apply  font-kumbh text-[1rem] font-[400]  leading-10;
+}
+.ite-box ul {
+  @apply mt-3 px-2
 }

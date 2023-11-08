@@ -39,15 +39,24 @@ import image11 from "../images/SIGN UP MOCKUP 2.png";
 import image12 from "../images/LOGIN MOCKUP EMPTY.png";
 import image13 from "../images/RECOVER PASSWORD MOCKUP.png";
 import image14 from "../images/OTP VERICATION MOCKUP.png";
-import image16 from '../images/RESET PASSWORD SUCCESSFUL MOCKUP.png'
-import image15 from '../images/RESET PASSWORD MOCKUP.png'
+import image16 from "../images/RESET PASSWORD SUCCESSFUL MOCKUP.png";
+import image15 from "../images/RESET PASSWORD MOCKUP.png";
 import image17 from "../images/HOMEPAGE MOCKUP 2.png";
 import image18 from "../images/SEND A PACKAGE STEP 1  MOCKUP.png";
-import image19 from '../images/SEND A PACKAGE STEP 2 MOCKUP 2.png'
-import image20 from '../images/SEND A PACKAGE STEP 3 MOCKUP 2.png'
-import image21 from '../images/SEND A PACKAGE STEP 3 MOCKUP 2.png'
-import image22 from '../images/SEND A PACKAGE STEP 4 MOCKUP 2.png'
-import image23 from '../images/SEND A PACKAGE STEP 5 MOCKUP 2.png'
+import image19 from "../images/SEND A PACKAGE STEP 2 MOCKUP 2.png";
+import image20 from "../images/SEND A PACKAGE STEP 3 MOCKUP 2.png";
+import image21 from "../images/SEND A PACKAGE STEP 4 MOCKUP 2.png";
+import image22 from "../images/SEND A PACKAGE STEP 5 MOCKUP 2.png";
+import image23 from "../images/Group 310.png";
+import image24 from "../images/TRACK A SHIPMENT MOCKUP 2.png";
+import image25 from "../images/MY CARD EMPTY STATE MOCKUP.png";
+import image26 from "../images/MY CARDS MOCKUP.png";
+import image27 from "../images/CARD ADDED MOCKUP.png";
+import image28 from "../images/MY HISTORY EMPTY STATE MOCKUP.png";
+import image29 from "../images/MY HISTORY MOCKUP.png";
+import image30 from "../images/Group 3105.png";
+import image31 from "../images/SETTINGS MOCKUP 2.png";
+import Footer from "./Footer";
 
 const Express = ({ scrollPosition }) => {
   return (
@@ -496,42 +505,41 @@ const Express = ({ scrollPosition }) => {
                       short story and easy to use, leaves a positive first
                       impression that excites users.
                     </p>
-                   
                   </div>
                   <div className="halo-screen-grid">
-                      <LazyLoadImage
-                        alt="LOADING"
-                        src={image7}
-                        effect="blur"
-                        opacity={1.2}
-                        placeholderSrc="black-and-white"
-                        scrollPosition={scrollPosition}
-                      />
-                      <LazyLoadImage
-                        alt="LOADING"
-                        src={image8}
-                        effect="blur"
-                        opacity={1.2}
-                        placeholderSrc="black-and-white"
-                        scrollPosition={scrollPosition}
-                      />
-                      <LazyLoadImage
-                        alt="LOADING"
-                        src={image9}
-                        effect="blur"
-                        opacity={1.2}
-                        placeholderSrc="black-and-white"
-                        scrollPosition={scrollPosition}
-                      />
-                      <LazyLoadImage
-                        alt="LOADING"
-                        src={image10}
-                        effect="blur"
-                        opacity={1.2}
-                        placeholderSrc="black-and-white"
-                        scrollPosition={scrollPosition}
-                      />
-                    </div>
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image7}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image8}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image9}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image10}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  </div>
                 </div>
                 <div className="login">
                   <div className="halo-box">
@@ -591,12 +599,178 @@ const Express = ({ scrollPosition }) => {
                 <div className="homepage">
                   <div className="halo-box">
                     <h3>Homepage + Send a Package</h3>
-                    <p>This is a five step process that guides the user on how to send a package and also to compare different courier service prices.</p>
+                    <p>
+                      This is a five step process that guides the user on how to
+                      send a package and also to compare different courier
+                      service prices.
+                    </p>
                   </div>
                   <div className="halo-screen-grid">
-
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image17}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image18}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image19}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image20}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image21}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image22}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image23}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image24}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
                   </div>
                 </div>
+                <div className="other mb-10">
+                  <div className="halo-box">
+                    <h3>Other Screens</h3>
+                  </div>
+                  <div className="halo-screen-grid">
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image25}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image26}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image27}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image28}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image29}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image30}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                    <LazyLoadImage
+                      alt="LOADING"
+                      src={image31}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  </div>
+                </div>
+                <div className="iteration mb-10">
+                  <div className="halo-box">
+                    <h3>Iteration Process</h3>
+                    <p>
+                      I conducted usability testing with my target audience,
+                      asking people to think aloud in order to gain a better
+                      understanding of their mental model. After I finished
+                      testing, I gathered all of the data, examined it, and came
+                      to some conclusions.
+                    </p>
+                    <div className="ite-box">
+                      <ul>
+                        <li>
+                          1. The users did not know how to classify their
+                          delivery( either document or package)
+                        </li>
+                        <li>
+                          2. Users want easy processes on mobile applications as
+                          they are easily distracted
+                        </li>
+                        <li>
+                          3. The users wants to know the difference between
+                          standard and express delivery
+                        </li>
+                      </ul>
+                    </div>
+                    <p>So I decided to add a tool tip to show the information regarding the difference between both express and standard delivery and did the same for the difference between document and package. For the long process, i made sure i divided the steps into five pages and made it seamless for the users to fill.</p>
+                  </div>
+                </div>
+                <div className="lesson mt-5"   style={{ borderBottom: "2px solid #1f2123" }}>
+                  <div className="halo-box">
+                    <h3>Lessons</h3>
+                    <p>For this project, I learned to work closely with design systems, strengthen my reach in the aspect of user interviews, learned, and practiced new ways to get the best feedbacks from users. I design icons to fit well into the projects. However, if I had more time, I would have expanded my user research so as to get more depth.</p>
+                  </div>
+                </div>
+                <Footer/>
               </div>
             </div>
           </div>

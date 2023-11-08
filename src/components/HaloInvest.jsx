@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
+import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import tag from "../images/tag.svg";
 import user from "../images/user.svg";
@@ -724,12 +725,7 @@ const HaloInvest = ({scrollPosition}) => {
                       </p>
                     </div>
                   </div>
-                  <div className="thanks pt-8 pb-20 flex flex-col items-center justify-center gap-5">
-                    <img src="" alt="" />
-                    <p className=" font-kumbh font-[600] text-[1.1rem]">
-                      Thank you for scrolling through this far.
-                    </p>
-                  </div>
+                  <Footer/>
                 </div>
               </div>
             </div>
