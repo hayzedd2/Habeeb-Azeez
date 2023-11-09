@@ -67,10 +67,10 @@ const Express = ({ scrollPosition }) => {
           <SideBar />
         </div>
         <div className="w-4/5 max-h-screen overflow-y-auto overflow-x-hidden">
-          <div className="pt-[8rem]">
+          <div className="pt-[5rem]">
             <div className="   text-white ">
               <div
-                className="flex gap-5 items-center px-7 pb-5"
+                className="flex gap-5 items-center px-7 pb-5 pt-7 fixed bg-[#111315]  z-30  w-4/5"
                 style={{ borderBottom: "1.5px solid #2c2e30" }}
               >
                 <Link to={"/case-study"}>
@@ -83,7 +83,7 @@ const Express = ({ scrollPosition }) => {
                 </h1>
               </div>
               <div className="px-7">
-                <div className="my-6">
+                <div className="pt-[7rem]">
                   <p className="  font-kumbh text-[1.25rem] font-[500]">
                     A step-by step solution to the process of ordering a courier
                     delivery service on mobile devices.
@@ -105,7 +105,7 @@ const Express = ({ scrollPosition }) => {
                               <p>UI design</p>
                             </div>
                             <div className="bg-tags bg-[#5386e4] ">
-                              <p>Fintech</p>
+                              <p>Logistics</p>
                             </div>
                           </div>
                         </div>
@@ -139,7 +139,7 @@ const Express = ({ scrollPosition }) => {
                     </div>
                   </div>
                 </div>
-                <div className="design-process">
+                <div className="design-process pt-10">
                   <div
                     className="halo-box flex gap-20 "
                     style={{ marginBottom: "0px" }}

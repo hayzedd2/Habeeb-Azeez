@@ -46,7 +46,7 @@ const CaseStudy = () => {
                         </div>
                     </div>
                   </Link>
-                  <Link>
+                  <Link to={'/case-study/re-own'}>
                   <div className="case-study-box-3 case-study-box bg-[#002642]">
                         <h3>Reown Website and Web App</h3>
                         <h4>Building a community of safe drivers who are interested in recording their vehicle's usage, repairs, and maintenance history.</h4>
@@ -56,7 +56,7 @@ const CaseStudy = () => {
                         </div>
                     </div>
                   </Link>
-                  <Link>
+                  <Link to={'/case-study/FSDH'}>
                   <div className="case-study-box-3 case-study-box bg-[#004987]">
                         <h3>FSDH Mobile Application</h3>
                         <h4>This app allow users to sign up for an Asset Management account, refer non-asset management customers, and subscribe to any investment product as well as redeem their subscription.</h4>
