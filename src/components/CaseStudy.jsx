@@ -66,7 +66,7 @@ const CaseStudy = () => {
                         </div>
                     </div>
                   </Link>
-                  <Link>
+                  <Link to={'/case-study/halo-website'}>
                   <div className="case-study-box-3 case-study-box bg-[#143284]">
                         <h3>Halo Invest Website Design</h3>
                         <h4>Helping communities and their members build wealth and providing the financial literacy needed to sustain it.</h4>
