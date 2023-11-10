@@ -355,3 +355,12 @@ html {
 .circular-color-div{
   @apply  w-[11.5rem] h-[11.5rem] flex items-center justify-center rounded-full font-kumbh font-[500] text-[0.95rem]
 }
+.scenario-bg-1{
+  @apply rounded-[10px] font-kumbh px-4 py-6
+}
+.scenario-bg-1 h3{
+  @apply font-[600] mb-[0.65rem] text-[0.95rem]
+}
+.scenario-bg-1 p{
+  @apply font-[400] text-[0.8rem]
+}

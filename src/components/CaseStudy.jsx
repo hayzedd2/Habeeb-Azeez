@@ -76,7 +76,7 @@ const CaseStudy = () => {
                         </div>
                     </div>
                   </Link>
-                  <Link>
+                  <Link to={'/case-study/store-book'}>
                   <div className="case-study-box-3 case-study-box bg-[#0066f5]">
                         <h3>Storebooks Mobile Application</h3>
                         <h4>Helping small business owners keep track of their revenue and expenses, manage their customers, and issue receipts.</h4>

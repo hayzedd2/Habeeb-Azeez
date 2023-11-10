@@ -14,6 +14,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import ReOwn from "./components/ReOwn";
 import FSDH from "./components/FSDH";
 import HaloWebsite from "./components/HaloWebsite";
+import StoreBook from "./components/StoreBook";
 
 
 const RoutesList = () => {
@@ -30,6 +31,7 @@ const RoutesList = () => {
       <Route path="/case-study/re-own" element={<ReOwn/>} />
       <Route path="/case-study/FSDH" element={<FSDH/>} />
       <Route path="/case-study/halo-website" element={<HaloWebsite/>} />
+      <Route path="/case-study/store-book" element={<StoreBook/>} />
     </Routes>
   );
 };
