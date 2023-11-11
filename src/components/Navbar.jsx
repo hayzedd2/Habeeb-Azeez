@@ -24,7 +24,10 @@ const Navbar = () => {
         <div className="nav-logo  xl:basis-[20%] sm:basis-[100%] flex flex-wrap gap-3 py-4 xl:pl-8 sm:px-4 xl:pr-0 nav-links-border">
           <div className="flex items-center justify-between w-full">
             <div className="flex">
-            <MobileSideBar isOpen={isOpen}/>
+              <div className="sm:block xl:hidden">
+              <MobileSideBar isOpen={isOpen}/>
+              </div>
+            
               <img src={profile} alt="" className="pr-2" />
               <div className="nav-logo-text flex flex-col ">
                 <h3 className="font-kumbh text-[1.2rem] font-[600]">
