@@ -49,7 +49,7 @@ html {
   @apply font-kumbh xl:leading-[4.4rem] sm:leading-[2.5rem] font-[700] sm:text-[1.4rem] xl:text-[2.6rem] text-white;
 }
 .hero-text-p {
-  @apply font-kumbh xl:leading-[2.5rem] sm:leading-[2rem] font-[500] xl:text-[1.15rem] sm:text-[0.9rem] text-white mt-4;
+  @apply font-kumbh xl:leading-[2.5rem] sm:leading-[2rem] font-[500] xl:text-[1.15rem] sm:text-[0.95rem] text-white mt-4;
 }
 .ps-p {
   @apply font-kumbh leading-[2.4rem] font-[500] text-[1.15rem] text-grey;
