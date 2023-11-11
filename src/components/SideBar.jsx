@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 const SideBar = () => {
   return (
     <div className="fixed left-0 w-1/5">
-      <nav className="flex flex-col gap-4 lg:px-5 md:bg-red-700 lg:bg-transparent  xl:px-8 text-white max-h-screen nav-links-border overflow-y-scroll  scroll-container ">
+      <nav className="flex flex-col gap-4  md:bg-red-700 lg:bg-transparent sm:hidden xl:flex px-8 text-white max-h-screen nav-links-border overflow-y-scroll  scroll-container ">
         <div className="mt-[7rem]">
           <h4 className="sidebar-placeholder">MENU</h4>
           <div className="links-holder">
