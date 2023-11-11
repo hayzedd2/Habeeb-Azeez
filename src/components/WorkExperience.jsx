@@ -4,54 +4,48 @@ import Navbar from "./Navbar";
 const WorkExperience = () => {
   const Work = [
     {
-      companyName : 'Voyage Control',
-      contractType : 'Contract',
-      jobType : 'Product Designer',
-      location : 'United Kingdom',
-      date : 'July 2022 - May 2023'
-
+      companyName: "Voyage Control",
+      contractType: "Contract",
+      jobType: "Product Designer",
+      location: "United Kingdom",
+      date: "July 2022 - May 2023",
     },
     {
-      companyName : 'Halo Invest',
-      contractType : 'Full-Time',
-      jobType : 'Product Designer',
-      location : 'Lagos Nigeria',
-      date : 'Nov. 2021 - Dec. 2022'
-
+      companyName: "Halo Invest",
+      contractType: "Full-Time",
+      jobType: "Product Designer",
+      location: "Lagos Nigeria",
+      date: "Nov. 2021 - Dec. 2022",
     },
     {
-      companyName : 'CKDigital',
-      contractType : 'Full-Time',
-      jobType : 'UI Designer',
-      location : 'Lagos Nigeria',
-      date : 'April 2021 - Nov. 2021'
-
+      companyName: "CKDigital",
+      contractType: "Full-Time",
+      jobType: "UI Designer",
+      location: "Lagos Nigeria",
+      date: "April 2021 - Nov. 2021",
     },
     {
-      companyName : 'CodeGarage Africa',
-      contractType : 'Full-Time',
-      jobType : 'UI Designer',
-      location : 'Lagos Nigeria',
-      date : 'April. 2020 - April. 2021'
-
+      companyName: "CodeGarage Africa",
+      contractType: "Full-Time",
+      jobType: "UI Designer",
+      location: "Lagos Nigeria",
+      date: "April. 2020 - April. 2021",
     },
     {
-      companyName : 'Hotels.ng',
-      contractType : 'Internship',
-      jobType : 'UI Design Intern',
-      location : 'Lagos Nigeria',
-      date : 'June 2020 - Aug. 2020'
-
+      companyName: "Hotels.ng",
+      contractType: "Internship",
+      jobType: "UI Design Intern",
+      location: "Lagos Nigeria",
+      date: "June 2020 - Aug. 2020",
     },
     {
-      companyName : 'Simple Finance Nigeria',
-      contractType : 'Internship',
-      jobType : 'UI Designer Intern',
-      location : 'Lagos Nigeria',
-      date : 'Apr. 2020 - Aug. 2020'
-
+      companyName: "Simple Finance Nigeria",
+      contractType: "Internship",
+      jobType: "UI Designer Intern",
+      location: "Lagos Nigeria",
+      date: "Apr. 2020 - Aug. 2020",
     },
-  ]
+  ];
   return (
     <>
       <Navbar />
@@ -72,6 +66,7 @@ const WorkExperience = () => {
               </div>
               <div className="present mt-8">
                 <h3 className="work-placeholder">Present</h3>
+
                 <div className="work-box">
                   <div className="heading">
                     <h3>Brass</h3>
@@ -92,29 +87,30 @@ const WorkExperience = () => {
               </div>
               <div className="past mt-8">
                 <h3 className="work-placeholder mb-5">Past</h3>
-                <div className="work-grid grid grid-cols-3 gap-5">
-                 {Work.map((work)=>{
-                  return(
-                    <div className="work-box-grid">
-                    <div className="heading">
-                      <h3>{work.companyName}</h3>
-                      <h6>{work.contractType}</h6>
-                    </div>
-                    <div className="work-sub-box mt-5">
-                      <div className="bullet flex gap-4">
-                        <div className="bullet-border">
-                          <div className="bullet-bg"></div>
+                <div className="case-study-grid">
+                  {Work.map((work) => {
+                    return (
+                      <div className="work-box-grid">
+                        <div className="heading">
+                          <h3>{work.companyName}</h3>
+                          <h6>{work.contractType}</h6>
                         </div>
-                        <div className="bullet-text">
-                          <h3>{work.jobType}</h3>
-                          <h4>{work.location} | {work.date}</h4>
+                        <div className="work-sub-box mt-5">
+                          <div className="bullet flex gap-4">
+                            <div className="bullet-border">
+                              <div className="bullet-bg"></div>
+                            </div>
+                            <div className="bullet-text">
+                              <h3>{work.jobType}</h3>
+                              <h4>
+                                {work.location} | {work.date}
+                              </h4>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  
-                  )
-                 })}
+                    );
+                  })}
                 </div>
               </div>
             </div>

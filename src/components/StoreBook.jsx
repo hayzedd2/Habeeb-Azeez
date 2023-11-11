@@ -31,6 +31,13 @@ import image13 from '../images/Customers-2 1.png'
 import image14 from '../images/empty 25.png'
 import image15 from '../images/Filled 1.png'
 import image16 from '../images/empty 15.png'
+import image17 from '../images/Empty 5.png'
+import image18 from '../images/Sales Details 1.png'
+import image19 from '../images/Sales Details-1 1.png'
+import image20 from '../images/Expenses Details 1.png'
+import image21 from '../images/Expenses Details-1 1.png'
+import image22 from '../images/Account 1.png'
+import Footer from "./Footer";
 const StoreBook = ({ scrollPosition }) => {
   return (
     <>
@@ -433,7 +440,61 @@ const StoreBook = ({ scrollPosition }) => {
                       placeholderSrc="black-and-white"
                       scrollPosition={scrollPosition}
                     />
+                  <LazyLoadImage
+                      alt="LOADING"
+                      src={image17}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  <LazyLoadImage
+                      alt="LOADING"
+                      src={image18}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  <LazyLoadImage
+                      alt="LOADING"
+                      src={image19}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  <LazyLoadImage
+                      alt="LOADING"
+                      src={image20}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  <LazyLoadImage
+                      alt="LOADING"
+                      src={image21}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white" 
+                      scrollPosition={scrollPosition}
+                    />
+                  <LazyLoadImage
+                      alt="LOADING"
+                      src={image22}
+                      effect="blur"
+                      opacity={1.2}
+                      placeholderSrc="black-and-white"
+                      scrollPosition={scrollPosition}
+                    />
+                  
                   </div>
+                  <div className="halo-box pt-5 pb-8"  style={{ borderBottom: "2px solid #1f2123" }}>
+                    <h3>Lessons</h3>
+                    <p>Working on this project helped me realize that many online vendors would prefer the digitalization of the bookkeeping process to the conventional pen and paper method, and they would be content to be able to track their earnings and losses.</p>
+                  </div>
+                  <Footer/>
                 </div>
               </div>
             </div>

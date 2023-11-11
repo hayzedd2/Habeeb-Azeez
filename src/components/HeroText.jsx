@@ -3,11 +3,11 @@ import habeebImg from "../images/Group 625878.png";
 const HeroText = () => {
   return (
     <div>
-      <div className="pt-[8rem] md:pt-[8rem] lg:pt-0">
-        <div className="flex items-center  pl-7  justify-center  ">
-          <div className="basis-[70%]  ">
-            <div className="text max-w-[50rem]">
-              <h1 className="hero-text-h1">
+      <div className="">
+        <div className="flex min-h-[93vh] xl:pt-[8rem] sm:pt-[4rem] xl:flex-nowrap sm:flex-wrap">
+          <div className="xl:basis-[70%] sm:basis-[100%] xl:px-7 sm:px-4">
+            <div className="">
+              <h1 className="hero-text-h1 xl:mt-8 sm:mt-5">
                 Hello there. I'm glad to have you here, I'm Habeeb, a{" "}
                 <span className="text-[#FFBD6A]"> Product Designer.</span>
               </h1>
@@ -20,7 +20,7 @@ const HeroText = () => {
                 easier. I design unique user interfaces for small businesses,
                 corporations, and startups.
               </p>
-              <div className="btns mt-10 flex gap-5">
+              <div className="btns flex xl:mt-10 sm:mt-7 gap-4 xl:flex-nowrap sm:flex-wrap">
                 <a href="">
                   <button className="btn-1">More about me</button>
                 </a>
@@ -30,13 +30,17 @@ const HeroText = () => {
               </div>
             </div>
           </div>
-          <div className="basis-[30%] flex items-end min-h-[94.5vh] justify-end ">
-            <img src={habeebImg} alt="" />
+          <div className=" flex xl:items-end sm:justify-center sm:items-center xl:basis-[30%] sm:basis-[100%] ">
+            <img src={habeebImg} alt="" className="xl:w-full sm:w-[20rem]" />
           </div>
         </div>
-        <div className="flex footer-border items-center pt-3 px-7 font-kumbh w-full justify-between">
-          <p className="text-[#CFD0D0] font-[500] text-[0.9rem]">Copyright © 2022</p>
-          <p className="text-[#CFD0D0] font-[500] text-[0.9rem]">Designed by Azeez Habeeb with love❤️ and light💡</p>
+        <div className=" flex px-7 items-center justify-between h-[6vh] footer-border ">
+          <p className="text-[#CFD0D0] font-[500] text-[0.9rem]">
+            Copyright © 2022
+          </p>
+          <p className="text-[#CFD0D0] font-[500] text-[0.9rem]">
+            Designed by Azeez Habeeb with love❤️ and light💡
+          </p>
         </div>
       </div>
     </div>

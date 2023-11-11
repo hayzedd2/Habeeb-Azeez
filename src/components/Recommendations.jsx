@@ -17,7 +17,7 @@ const Recommendations = () => {
                   Recommendations
                 </h1>
               </div>
-              <div className="reco-flex flex flex-col gap-6">
+              <div className="reco-flex flex flex-col gap-6 mb-5">
                 <div className="reco-box bg-[#1c2023] px-4 py-6 rounded-[8px]">
                     <div className="reco-flex flex gap-4 items-center">
                         <div className="reco-name  bg-[#ffbd6a] ">

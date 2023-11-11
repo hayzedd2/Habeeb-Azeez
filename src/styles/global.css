@@ -46,10 +46,10 @@ html {
   @apply flex gap-3 font-kumbh  pl-4 py-3 pr-2 rounded-lg items-center justify-between cursor-pointer text-white bg-[#1c2023];
 }
 .hero-text-h1 {
-  @apply font-kumbh leading-[4.4rem] font-[700] text-[2.7rem] text-white;
+  @apply font-kumbh xl:leading-[4.4rem] sm:leading-[2.5rem] font-[700] sm:text-[1.4rem] xl:text-[2.6rem] text-white;
 }
 .hero-text-p {
-  @apply font-kumbh leading-[2.5rem] font-[500] text-[1.15rem] text-white mt-4;
+  @apply font-kumbh xl:leading-[2.5rem] sm:leading-[2rem] font-[500] xl:text-[1.15rem] sm:text-[0.9rem] text-white mt-4;
 }
 .ps-p {
   @apply font-kumbh leading-[2.4rem] font-[500] text-[1.15rem] text-grey;
@@ -67,10 +67,10 @@ html {
   background: transparent;
 }
 .btn-1 {
-  @apply font-kumbh bg-[#FFBD6A] rounded-[6px] text-[0.9rem] w-[15.3rem] font-[700] h-[3.36rem] flex items-center justify-center;
+  @apply font-kumbh bg-[#FFBD6A] rounded-[6px] text-[0.9rem] sm:w-[10rem] xl:w-[15.3rem] font-[700] h-[3.36rem] flex items-center justify-center;
 }
 .btn-2 {
-  @apply font-kumbh border border-[#FFBD6A] rounded-[6px] text-[0.9rem] w-[15.3rem] font-[700] h-[3.36rem] flex items-center bg-transparent justify-center text-[#FFBD6A];
+  @apply font-kumbh border border-[#FFBD6A] rounded-[6px] text-[0.9rem] sm:w-[10rem] xl:w-[15.3rem] font-[700] h-[3.36rem] flex items-center bg-transparent justify-center text-[#FFBD6A];
 }
 .bg-skills {
   @apply flex items-center justify-center text-[#111315] font-kumbh text-[0.9rem] rounded-[8px] h-[3rem] font-[600];
@@ -110,7 +110,8 @@ html {
 }
 .case-study-grid {
 
-  @apply grid grid-cols-3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 .case-study-box-1 {
