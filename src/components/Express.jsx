@@ -63,14 +63,14 @@ const Express = ({ scrollPosition }) => {
     <>
       <Navbar />
       <section className="min-h-screen w-[100vw] bg-[#111315] flex">
-        <div className="w-1/5">
+        <div className="w-1/5 sm:hidden xl:block">
           <SideBar />
         </div>
-        <div className="w-4/5 max-h-screen overflow-y-auto overflow-x-hidden">
+        <div className="xl:w-4/5 sm:w-full max-h-screen overflow-y-auto overflow-x-hidden">
           <div className="pt-[5rem]">
             <div className="   text-white ">
               <div
-                className="flex gap-5 items-center px-7 pb-5 pt-7 fixed bg-[#111315]  z-30  w-4/5"
+                className="flex gap-5 items-center px-7 pb-5 pt-7 fixed bg-[#111315]  z-30  xl:w-4/5 sm:w-full"
                 style={{ borderBottom: "1.5px solid #2c2e30" }}
               >
                 <Link to={"/case-study"}>
@@ -78,13 +78,13 @@ const Express = ({ scrollPosition }) => {
                     <FaArrowLeft className="text-[1rem] font-[400] text-black" />
                   </div>
                 </Link>
-                <h1 className=" font-kumbh font-[600] text-[1.05rem] text-grey">
+                <h1 className=" font-kumbh font-[600] xl:text-[1.05rem] sm:text-[0.95rem] text-grey">
                   Express Mobile Application Case Study
                 </h1>
               </div>
               <div className="px-7">
                 <div className="pt-[7rem]">
-                  <p className="  font-kumbh text-[1.25rem] font-[500]">
+                  <p className="  font-kumbh xl:text-[1.25rem] sm:text-[1rem] font-[500] xl:leading-normal sm:leading-loose">
                     A step-by step solution to the process of ordering a courier
                     delivery service on mobile devices.
                   </p>
@@ -92,7 +92,7 @@ const Express = ({ scrollPosition }) => {
                     className="w-full"
                     style={{ borderBottom: "1.5px solid #2c2e30" }}
                   >
-                    <div className="flex  w-full items-center flex-wrap gap-10 mt-5 pb-6">
+                    <div className="flex  w-full items-center flex-wrap xl:gap-10 sm:gap-5 mt-5 pb-6">
                       <div className="tags flex gap-2 items-center ">
                         <img src={tag} alt="" className="w-[1.2rem]" />
                         <div className="flex gap-2 items-center">
@@ -141,7 +141,7 @@ const Express = ({ scrollPosition }) => {
                 </div>
                 <div className="design-process pt-10">
                   <div
-                    className="halo-box flex gap-20 "
+                    className="halo-box flex xl:gap-20 sm:gap-7 xl:flex-nowrap sm:flex-wrap "
                     style={{ marginBottom: "0px" }}
                   >
                     <div>
@@ -156,7 +156,7 @@ const Express = ({ scrollPosition }) => {
                     </div>
                     <img
                       src={Introimage}
-                      className="w-[14rem] h-[13rem]"
+                      className="w-[14rem] h-[13rem] xl:mb-0 sm:mb-6"
                       alt=""
                     />
                   </div>
@@ -411,7 +411,7 @@ const Express = ({ scrollPosition }) => {
                   <div className="halo-box">
                     <h3>Project Goals</h3>
                   </div>
-                  <div className="flex gap-16">
+                  <div className="flex xl:gap-16 sm:gap-7 xl:flex-nowrap sm:flex-wrap">
                     <div className="flex gap-3 projecticon items-center">
                       <img src={projectIcon} className="w-5" alt="" />
                       <p>Door-to-Door Courier Service</p>
@@ -453,7 +453,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -461,7 +461,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -469,7 +469,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -477,7 +477,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -485,7 +485,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -493,7 +493,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                   </div>
                 </div>
@@ -513,7 +513,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -521,7 +521,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -529,7 +529,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -537,7 +537,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                   </div>
                 </div>
@@ -552,7 +552,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -560,7 +560,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -568,7 +568,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -576,7 +576,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -584,7 +584,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -592,7 +592,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                   </div>
                 </div>
@@ -612,7 +612,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -620,7 +620,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -628,7 +628,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -636,7 +636,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -644,7 +644,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -652,7 +652,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -660,7 +660,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -668,7 +668,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                   </div>
                 </div>
@@ -683,7 +683,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -691,7 +691,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -699,7 +699,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -707,7 +707,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -715,7 +715,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -723,7 +723,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     <LazyLoadImage
                       alt="LOADING"
@@ -731,7 +731,7 @@ const Express = ({ scrollPosition }) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                   </div>
                 </div>

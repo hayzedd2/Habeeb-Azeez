@@ -23,14 +23,14 @@ const ReOwn = ({scrollPosition}) => {
     <>
       <Navbar />
       <section className="min-h-screen w-[100vw] bg-[#111315] flex">
-        <div className="w-1/5">
+        <div className="xl:w-1/5 sm:hidden xl:block">
           <SideBar />
         </div>
-        <div className="w-4/5 max-h-screen overflow-y-auto overflow-x-hidden">
+        <div className="xl:w-4/5 sm:w-full  max-h-screen overflow-y-auto overflow-x-hidden">
           <div className="pt-[5rem]">
             <div className="   text-white ">
               <div
-                className="flex gap-5 items-center px-7 pb-5 pt-7 fixed bg-[#111315]  z-30  w-4/5"
+                className="flex gap-5 items-center px-7 pb-5 pt-7  fixed bg-[#111315]  z-30  xl:w-4/5 sm:w-full"
                 style={{ borderBottom: "1.5px solid #2c2e30" }}
               >
                 <Link to={"/case-study"}>
@@ -38,13 +38,13 @@ const ReOwn = ({scrollPosition}) => {
                     <FaArrowLeft className="text-[1rem] font-[400] text-black" />
                   </div>
                 </Link>
-                <h1 className=" font-kumbh font-[600] text-[1.05rem] text-grey">
+                <h1 className=" font-kumbh font-[600] sm:text-[0.95rem] xl:text-[1.05rem] text-grey">
                   Reown Website and Web Application Case Study
                 </h1>
               </div>
               <div className="px-7">
                 <div className="pt-[7rem]">
-                  <p className="  font-kumbh text-[1.25rem] font-[500]">
+                  <p className="  font-kumbh xl:text-[1.25rem] sm:text-[1rem] font-[500] xl:leading-normal sm:leading-loose">
                     The best car deals and services in Nigeria with detailed
                     maintenance history & affordable financing solution.
                   </p>
@@ -52,7 +52,7 @@ const ReOwn = ({scrollPosition}) => {
                     className="w-full"
                     style={{ borderBottom: "1.5px solid #2c2e30" }}
                   >
-                    <div className="flex  w-full items-center flex-wrap gap-10 mt-5 pb-6">
+                    <div className="flex  w-full items-center flex-wrap xl:gap-10 sm:gap-5 mt-5 pb-6">
                       <div className="tags flex gap-2 items-center ">
                         <img src={tag} alt="" className="w-[1.2rem]" />
                         <div className="flex gap-2 items-center">
@@ -143,7 +143,7 @@ const ReOwn = ({scrollPosition}) => {
                       wireframes.
                     </p>
                   </div>
-                  <div className="flex w-full justify-between items-center flex-wrap  mb-10">
+                  <div className="flex w-full sm:justify-center sm:gap-5 xl:gap-0 xl:justify-between items-center flex-wrap  mb-10">
                     <div className="skills-box bg-[#002a48]">
                       <p>Research</p>
                     </div>
@@ -208,10 +208,10 @@ const ReOwn = ({scrollPosition}) => {
                         <h3>Establishing user profiles</h3>
                     </div>
                     <div className="flex flex-wrap">
-                        <div className="basis-[35%] mt-10  items-start justify-start flex">
+                        <div className="xl:basis-[35%] sm:basis-[100%] mt-10  items-start justify-start flex">
                             <img src={earnImage} className="" alt="" />
                         </div>
-                        <div className="basis-[65%] items-end justify-end flex flex-col">
+                        <div className="xl:basis-[65%] sm:basis-[100%]  items-end justify-end flex flex-col">
                             <p className="font-kumbh leading-8 text-[0.95rem]">Driving inclusion amongst low-mid income earners in the community via innovative peer-peer car financing (flexicars) which offers investment opportunity with passive monthly earnings for an individual (car financer) while the other individual is able to access flexible car ownership, drive now and pay later on monthly basis.</p>
                             <div className="mt-[-5.5rem]">
                             <img src={driveImage}  className="w-[30rem] h-[30rem]"  alt="" />
@@ -223,7 +223,7 @@ const ReOwn = ({scrollPosition}) => {
                   <div className="typo-box">
                     <h3>Typography and colors</h3>
                    <div className="flex flex-wrap ">
-                   <div className="typo flex basis-[40%] items-start flex-col justify-start  flex-wrap mt-6">
+                   <div className="typo flex xl:basis-[40%] sm:basis-[100%] items-start flex-col justify-start  flex-wrap mt-6">
                       <div className="">
                         <img
                           src={Aa}
@@ -256,7 +256,7 @@ const ReOwn = ({scrollPosition}) => {
                         </div>
                       </div>
                     </div>
-                    <div className="colors basis-[60%] grid grid-cols-3 gap-10">
+                    <div className="colors xl:basis-[60%] sm:basis-[100%] grid  xl:grid-cols-3 sm:grid-cols-2 xl:mt-0 sm:mt-5 gap-10">
                       <div className="circular-color-div bg-[#002642]">
                         <p>#002642</p>
                       </div>
@@ -289,7 +289,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                     
                 </div>
@@ -303,7 +303,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                 <LazyLoadImage
                       alt="LOADING"
@@ -311,7 +311,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                 <LazyLoadImage
                       alt="LOADING"
@@ -319,7 +319,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                 <LazyLoadImage
                       alt="LOADING"
@@ -327,7 +327,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                 <LazyLoadImage
                       alt="LOADING"
@@ -335,7 +335,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                 <LazyLoadImage
                       alt="LOADING"
@@ -343,7 +343,7 @@ const ReOwn = ({scrollPosition}) => {
                       effect="blur"
                       opacity={1.2}
                       placeholderSrc="black-and-white"
-                      scrollPosition={scrollPosition}
+                      
                     />
                 </div>
                 <div className="conclusion my-10"   style={{ borderBottom: "2px solid #1f2123" }}>

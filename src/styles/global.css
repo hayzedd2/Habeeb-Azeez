@@ -176,7 +176,7 @@ html {
   @apply font-kumbh font-[400] text-[0.9rem] text-center leading-8 max-w-[11rem];
 }
 .col-flex {
-  @apply flex gap-5 flex-col items-center justify-center;
+  @apply flex gap-5 xl:flex-col sm:flex-row items-center justify-center;
 }
 .project-timeline {
   @apply rounded-[5px] bg-[#37332c] font-kumbh p-3 text-[0.8rem] text-[#ffbd6a] font-[600] text-center;
@@ -186,6 +186,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.6rem;
+  place-items: 'center';
 }
 .company-grid {
   @apply font-kumbh text-[0.9rem] text-white font-[500];
@@ -198,6 +199,7 @@ html {
   @apply py-2 px-4;
   border-right: 1.5px solid black;
 }
+
 
 .an-text-1 a {
   @apply underline decoration-blue-700 underline-offset-4 text-blue-700 py-5 px-4 bg-[#f3f3f3]  font-kumbh text-[0.95rem] font-[500];
@@ -354,7 +356,7 @@ html {
   @apply items-center justify-center flex rounded-[4px] font-kumbh text-[0.95rem] w-[14rem] h-[3.5rem] font-[600] text-white
 }
 .circular-color-div{
-  @apply  w-[11.5rem] h-[11.5rem] flex items-center justify-center rounded-full font-kumbh font-[500] text-[0.95rem]
+  @apply  xl:w-[11.5rem] xl:h-[11.5rem] sm:w-[9rem] sm:h-[9rem] flex items-center justify-center rounded-full font-kumbh font-[500] text-[0.95rem]
 }
 .scenario-bg-1{
   @apply rounded-[10px] font-kumbh px-4 py-6
