@@ -4,7 +4,7 @@ const HeroText = () => {
   return (
     <div>
       <div className="">
-        <div className="flex min-h-[93vh] xl:pt-[8rem] sm:pt-[4rem] xl:flex-nowrap sm:flex-wrap">
+        <div className="flex min-h-[93vh] pt-[8rem] xl:flex-nowrap sm:flex-wrap">
           <div className="xl:basis-[70%] sm:basis-[100%] xl:px-7 sm:px-4">
             <div className="">
               <h1 className="hero-text-h1 xl:mt-8 sm:mt-5">
@@ -20,7 +20,7 @@ const HeroText = () => {
                 easier. I design unique user interfaces for small businesses,
                 corporations, and startups.
               </p>
-              <div className="btns flex xl:mt-10 sm:mt-7 gap-4 xl:flex-nowrap sm:flex-wrap">
+              <div className="btns flex mt-10 gap-4 xl:flex-nowrap sm:flex-wrap">
                 <a href="">
                   <button className="btn-1">More about me</button>
                 </a>
