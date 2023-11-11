@@ -7,12 +7,16 @@ import Icon4 from "../images/Frame (3).svg";
 import { RiMenu3Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import MobileSideBar from "./MobileSideBar";
+import { useEffect } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const toggleHamburger = () => {
     setIsOpen(!isOpen);
   };
+  useEffect(()=>{
+    setIsOpen(!isOpen)
+  },[])
   return (
     <nav className="bg-[#111315] text-white nav-border fixed top-0 right-0 left-0 z-50  ">
      

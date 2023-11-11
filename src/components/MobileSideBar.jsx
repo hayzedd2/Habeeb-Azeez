@@ -10,8 +10,8 @@ const MobileSideBar = ({ isOpen }) => {
   return (
     <div className="mobile">
       {!isOpen ? (
-         <nav className="flex flex-col gap-4 fixed top-0 left-0 w-[70%] bg-[#111315] xl:flex px-5 text-white min-h-screen nav-links-border overflow-y-scroll  scroll-container ">
-         <div className="mt-20">
+         <nav className="flex flex-col gap-4 fixed top-0 left-0 w-[80%] bg-[#111315] xl:flex px-5 text-white min-h-screen nav-links-border overflow-y-scroll  scroll-container ">
+         <div className="mt-10">
            <h4 className="sidebar-placeholder">MENU</h4>
            <div className="links-holder">
              <NavLink
@@ -84,7 +84,7 @@ const MobileSideBar = ({ isOpen }) => {
          
            </div>
          </div>
-         <div className="contact-us mt-10">
+         <div className="contact-us mt-5">
            <h3 className=" font-kumbh font-[600]">Let’s Build Together</h3>
            <p className=" font-kumbh leading-8 my-3 text-[#CFD0D0]">
              Trust me, I’d love to hear about your project, Shoot me a mail.
