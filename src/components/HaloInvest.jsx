@@ -178,7 +178,7 @@ const HaloInvest = ({scrollPosition}) => {
                     </p>
                   </div>
                 </div>
-                <div className="dia-flex flex gap-2 items-start justify-between py-5 flex-wrap">
+                <div className="dia-flex flex gap-2 items-start xl:justify-between sm:justify-center py-5 flex-wrap">
                   <div className="col-flex">
                     <div className="col-bg bg-[#e54c4c]">
                       <img src={book} alt="" className="w-6" />
@@ -189,7 +189,7 @@ const HaloInvest = ({scrollPosition}) => {
                     </div>
                   </div>
                   <div className="col-flex">
-                    <div className="halo-col-text mt-[3.5rem] ">
+                    <div className="halo-col-text xl:mt-[3.5rem] sm:mt-0 ">
                       <p>
                         Brainstorming of ideas to answer the need of our
                         persona(s)
@@ -214,7 +214,7 @@ const HaloInvest = ({scrollPosition}) => {
                   </div>
 
                   <div className="col-flex">
-                    <div className="halo-col-text mt-[3.5rem] ">
+                    <div className="halo-col-text  xl:mt-[3.5rem] sm:mt-0 ">
                       <p>
                         Development process of turning the hi-fi designs into
                         code
