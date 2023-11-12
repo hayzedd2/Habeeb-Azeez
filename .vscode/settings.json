@@ -1,0 +1,32 @@
+{
+    // Configure the editor settings for React development.
+    "editor.format.enable": true,
+    "editor.format.onSave": true,
+    "javascript.format.jsdoc": true,
+    "javascript.format.react.jsxAutomaticClosing": true,
+  
+    // Configure extensions for React development.
+    "[React]": {
+      "react.extension.jsx.transform": true
+    },
+  
+    // Configure ESLint for React development.
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        "autoFix": true
+      }
+    ],
+    "eslint.extension.react": true,
+    "eslint.extension.import": true,
+  
+    // Configure Prettier for React development.
+    "[Prettier]": {
+    
+      "Prettier: Prettier - Code formatter": {
+        "ensureFinalNewline": true,
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    }
+  }

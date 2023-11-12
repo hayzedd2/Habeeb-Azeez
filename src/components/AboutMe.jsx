@@ -47,8 +47,8 @@ const AboutMe = () => {
                 design team.
               </p>
               <div className="digital-skills mt-10">
-                <h3 className=" font-kumbh text-white">Digital Skills</h3>
-                <div className="flex flex-col gap-3 mt-5 ">
+                <h3 className="font-kumbh text-white">Digital Skills</h3>
+                <div className="flex flex-col gap-3  mt-5 ">
                   <div className="halo-screen-grid" style={{margin : 0}}>
                     <div className="bg-skills bg-[#EB5E55]">Figma</div>
                     <div className="bg-skills bg-[#00FFC5]">Prototyping</div>
@@ -65,6 +65,7 @@ const AboutMe = () => {
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

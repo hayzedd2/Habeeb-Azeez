@@ -94,6 +94,8 @@ const MobileSideBar = ({ isOpen }) => {
                Contact Me
              </button>
            </a>
+          
+          
          </div>
        </nav>
       ) : null}

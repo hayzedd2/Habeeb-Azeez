@@ -97,6 +97,7 @@ const SideBar = () => {
       </nav>
     </div>
   );
+  
 };
 
 export default SideBar;
