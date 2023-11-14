@@ -8,10 +8,10 @@ const Certifications = () => {
     <>
       <Navbar />
       <section className="min-h-screen w-[100vw] bg-[#111315] flex">
-        <div className="w-1/5">
+        <div className="xl:w-1/5 sm:hidden xl:block">
           <SideBar />
         </div>
-        <div className="w-4/5 max-h-screen overflow-auto">
+        <div className="xl:w-4/5 sm:w-full max-h-screen overflow-auto">
           <div className="pt-[8rem] pb-10">
             <div className=" px-7  text-white ">
               <div className="heading">
