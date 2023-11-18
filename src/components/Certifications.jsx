@@ -22,33 +22,37 @@ const Certifications = () => {
               <div className="w-full mt-5 grid-border">
                 <div className="cert-dates grid grid-cols-4 w-full">
                   <div className="date">
-                    <p>APRIL 2020</p>
+                    <p className="xl:block sm:hidden">APRIL 2020</p>
+                    <p className="xl:hidden sm:block">APR '20</p>
                   </div>
                   <div className="date">
-                    <p>MARCH 2022</p>
+                    <p className="xl:block sm:hidden">MARCH 2022</p>
+                    <p className="xl:hidden sm:block">MARCH '22</p>
                   </div>
                   <div className="date">
-                    <p>NOVEMBER 2022</p>
+                    <p className="xl:block sm:hidden">NOVEMBER 2022</p>
+                    <p className="xl:hidden sm:block">NOV '22</p>
                   </div>
                   <div className="date">
-                    <p>JANUARY 2023</p>
+                    <p className="xl:block sm:hidden">JANUARY 2023</p>
+                    <p className="xl:hidden sm:block">JAN '23</p>
                   </div>
                 </div>
                 <div className="flex w-full">
-              
                   <div className="grid grid-cols-4  w-full">
                     <div className="row-flex  br flex flex-col min-h-[70vh] ">
                       <div className="certbox h-1/5"></div>
                       <div className="certbox h-1/5"></div>
                       <div className="cert-box  mt-5 bg-[#5386e4]">
-                    <div className="cert-text">
-                      <h3>
-                        Product Masterclass: How to Build Digital Products
-                      </h3>
-                      <p>Product School</p>
-                    </div>
-                    <img src={image2} className="w-12" alt="" />
-                  </div>
+                        <div className="cert-text">
+                          <h3>
+                            Product Masterclass: How to Build Digital Products
+                          </h3>
+                          <p>Product School</p>
+                        </div>
+                        <img src={image2} className="w-12 xl:block sm:hidden" alt="" />
+                        
+                      </div>
 
                       <div className="certbox h-1/5"></div>
                       <div className="certbox h-1/5"></div>
@@ -56,15 +60,15 @@ const Certifications = () => {
                     <div className="row-flex br flex flex-col min-h-[70vh] ">
                       <div className="certbox h-1/5 "></div>
                       <div className="cert-box border-none bg-[#fcaf58]">
-                    <div className="cert-text">
-                      <h3>
-                        Product Design <br />
-                        Course
-                      </h3>
-                      <p>Product School</p>
-                    </div>
-                    <img src={image2} className="w-12" alt="" />
-                  </div>
+                        <div className="cert-text">
+                          <h3>
+                            Product Design <br />
+                            Course
+                          </h3>
+                          <p>Product School</p>
+                        </div>
+                        <img src={image2} className="w-12 xl:block sm:hidden" alt="" />
+                      </div>
 
                       <div className="certbox h-1/5"></div>
                       <div className="certbox h-1/5"></div>
@@ -76,23 +80,27 @@ const Certifications = () => {
                       <div className="certbox h-1/5"></div>
                       <div className="certbox h-1/5"></div>
                       <div className="cert-box border-none bg-[#eb5e55]">
-                    <div className="cert-text">
-                      <h3>
-                        Building Better User Experiences with a Product Thinking
-                        Approach
-                      </h3>
-                      <p>Awwwards</p>
-                    </div>
-                    <img src={image1} alt="" />
-                  </div>
+                        <div className="cert-text">
+                          <h3>
+                            Building Better User Experiences with a Product
+                            Thinking Approach
+                          </h3>
+                          <p>Awwwards</p>
+                        </div>
+                        <img src={image1} alt="" className="xl:block sm:hidden" />
+                      </div>
                     </div>
                     <div className="row-flex br flex flex-col min-h-[70vh] ">
-                      <div className="cert-box  bg-[#53b3cb] h-1/5">
+                      <div className="cert-box  bg-[#53b3cb]">
                         <div className="cert-text">
                           <h3>Create a Design System from scratch in Figma</h3>
                           <p>Awwwards</p>
                         </div>
-                        <img src={image1} alt="" />
+                        <img
+                          src={image1}
+                          className="xl:block sm:hidden"
+                          alt=""
+                        />
                       </div>
                       <div className="certbox h-1/5"></div>
                       <div className="certbox h-1/5"></div>
