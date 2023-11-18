@@ -45,7 +45,7 @@ const Navbar = () => {
               {isOpen ? (
                 <RiMenu3Line className="text-[2rem]" />
               ) : (
-                <AiOutlineClose className="text-[1.9rem] text-white" />
+                <AiOutlineClose className="text-[1.9rem] text-white relative z-50" />
               )}
             </div>
           </div>
