@@ -10,24 +10,24 @@ import MobileSideBar from "./MobileSideBar";
 import { useEffect } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+  const body = document.querySelector("body");
   const toggleHamburger = () => {
     setIsOpen(!isOpen);
   };
-  useEffect(()=>{
-    setIsOpen(!isOpen)
-  },[])
+  useEffect(() => {
+    setIsOpen(!isOpen);
+  }, []);
+ 
   return (
     <nav className="bg-[#111315] text-white nav-border fixed top-0 right-0 left-0 z-50  ">
-     
       <div className="nav-grid flex">
         <div className="nav-logo  xl:basis-[20%] sm:basis-[100%] flex flex-wrap gap-3 py-4 xl:pl-8 sm:px-4 xl:pr-0 nav-links-border">
           <div className="flex items-center justify-between w-full">
             <div className="flex">
               <div className="sm:block xl:hidden">
-              <MobileSideBar isOpen={isOpen}/>
+                <MobileSideBar isOpen={isOpen} />
               </div>
-            
+
               <img src={profile} alt="" className="pr-2" />
               <div className="nav-logo-text flex flex-col ">
                 <h3 className="font-kumbh text-[1.2rem] font-[600]">
@@ -38,7 +38,10 @@ const Navbar = () => {
                 </p>
               </div>
             </div>
-            <div className="xl:hidden sm:block text-white relative z-50" onClick={toggleHamburger}>
+            <div
+              className="xl:hidden sm:block text-white relative z-50"
+              onClick={toggleHamburger}
+            >
               {isOpen ? (
                 <RiMenu3Line className="text-[2rem]" />
               ) : (
@@ -57,10 +60,10 @@ const Navbar = () => {
             </div>
             <div className="flex basis-[55%]">
               <div className="flex basis-[50%] items-center justify-center gap-8  nav-links-border">
-                <a href="">
+                <a href="https://www.behance.net/habeebazeez">
                   <img src={Icon1} className="w-[20px]" alt="" />
                 </a>
-                <a href="">
+                <a href="http://linkedin.com/in/azeezhabeeb">
                   <img src={Icon2} className="w-[20px]" alt="" />
                 </a>
                 <a href="">
