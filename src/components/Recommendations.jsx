@@ -39,7 +39,7 @@ const Recommendations = () => {
                         </div>
                         <div className="reco-text font-kumbh flex flex-col gap-1">
                             <h3 className="font-[600] text-[1.1rem]">Tomiiwo Fakindele</h3>
-                            <h5 className="text-grey font-[500] text-[0.9rem]">Chief Technical Officer, Halo Financial Capital Management Ltd.</h5>
+                            <h5 className="text-grey font-[500] text-[0.9rem]">Engineering Manager , SeedFi</h5>
                         </div>
                     </div>
                     <div className="reco-about font-kumbh text-grey leading-[2rem] mt-4 text-[0.98rem]">
