@@ -1,5 +1,6 @@
 import React from "react";
 import habeebImg from "../images/Group 625878.png";
+import { Link } from "react-router-dom";
 const HeroText = () => {
   return (
     <div>
@@ -21,12 +22,13 @@ const HeroText = () => {
                 corporations, and startups.
               </p>
               <div className="btns flex mt-10 gap-4 xl:flex-nowrap sm:flex-wrap">
-                <a href="">
+                <Link to={'/about'}>
                   <button className="btn-1">More about me</button>
-                </a>
-                <a href="">
+                </Link>
+
+                <Link to={'/case-study'}>
                   <button className="btn-2">See my Works</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
