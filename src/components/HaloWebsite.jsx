@@ -103,7 +103,7 @@ const HaloWebsite = ({ scrollPosition }) => {
                             <div className="">
                               <p className="text-white font-kumbh  text-[0.9rem] font-[600]">
                                 <a
-                                  href=""
+                                  href="https://morenikeadeyemi.dorik.io/" target="_blank"
                                   className=" underline underline-offset-2 decoration-[1px] text-[0.85rem]"
                                 >
                                   Morenike Adeyemi

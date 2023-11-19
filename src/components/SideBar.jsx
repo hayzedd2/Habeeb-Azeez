@@ -88,7 +88,7 @@ const SideBar = () => {
           <p className=" font-kumbh leading-8 my-3 text-[#CFD0D0]">
             Trust me, I’d love to hear about your project, Shoot me a mail.
           </p>
-          <a href="">
+          <a href="mailto:azeezhabeebomobolaji" target="_blank">
             <button className="w-full py-3 font-kumbh border border-white rounded-[8px]">
               Contact Me
             </button>

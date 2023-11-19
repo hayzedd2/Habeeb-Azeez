@@ -17,7 +17,7 @@ const Navbar = () => {
   useEffect(() => {
     setIsOpen(!isOpen);
   }, []);
- 
+
   return (
     <nav className="bg-[#111315] text-white nav-border fixed top-0 right-0 left-0 z-50  ">
       <div className="nav-grid flex">
@@ -60,22 +60,27 @@ const Navbar = () => {
             </div>
             <div className="flex basis-[55%]">
               <div className="flex basis-[50%] items-center justify-center gap-8  nav-links-border">
-                <a href="https://www.behance.net/habeebazeez">
+                <a href="https://www.behance.net/habeebazeez" target="_blank">
                   <img src={Icon1} className="w-[20px]" alt="" />
                 </a>
-                <a href="http://linkedin.com/in/azeezhabeeb">
+                <a href="http://linkedin.com/in/azeezhabeeb" target="_blank">
                   <img src={Icon2} className="w-[20px]" alt="" />
                 </a>
-                <a href="">
+                <a href="https://twitter.com/_Omo_Bolaji" target="_blank">
                   <img src={Icon3} className="w-[20px]" alt="" />
                 </a>
-                <a href="">
+                <a
+                  href="https://instagram.com/__omo_bolaji?igshid=MTk0NTkyODZkYg%3D%3D&utm_source=qr
+
+"
+                  target="_blank"
+                >
                   <img src={Icon4} className="w-[20px]" alt="" />
                 </a>
               </div>
               <div className=" min-h-[100%] basis-[50%] px-3  flex flex-col items-center justify-center ">
                 <a
-                  href=""
+                  href="mailto:azeezhabeebomobolaji"
                   className=" font-kumbh font-[600] text-[1rem] text-[#CFD0D0]"
                 >
                   azeezhabeebomobolaji@gmail.com

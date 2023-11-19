@@ -117,7 +117,7 @@ const FSDH = ({ scrollPosition }) => {
                             <div className="">
                               <p className="text-white font-kumbh  text-[0.9rem] font-[600]">
                                 <a
-                                  href=""
+                                  href="https://debbiebashorun.com/" target="_blank"
                                   className=" underline underline-offset-2 decoration-[1px] text-[0.85rem]"
                                 >
                                   Debbie Bashorun
