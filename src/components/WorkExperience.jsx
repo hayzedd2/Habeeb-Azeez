@@ -60,7 +60,7 @@ const WorkExperience = () => {
                 <h1 className=" font-kumbh font-[600] text-[1.3rem]">
                   Work Experience
                 </h1>
-                <a href="">
+                <a href="https://drive.google.com/file/d/1j3ceHjS5xBDQNTMaoqcy4upnNntUCkMr/view">
                   <button className="btn-resume">Download Resume</button>
                 </a>
               </div>
