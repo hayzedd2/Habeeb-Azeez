@@ -72,10 +72,11 @@ const WorkExperience = () => {
                   <button className="btn-resume">Download Resume</button>
                 </a>
               </div>
-              <div className="present mt-8">
-                <h3 className="work-placeholder">Present</h3>
+             <div className="case-study-grid">
+             <div className="present mt-8">
+                <h3 className="work-placeholder mb-4">Present</h3>
 
-                <div className="work-box">
+                <div className="work-box-grid">
                   <div className="heading">
                     <h3>Moniepoint Group</h3>
                     <h6>Full-Time</h6>
@@ -93,7 +94,10 @@ const WorkExperience = () => {
                   </div>
                 </div>
               </div>
-              <div className="past mt-8">
+              <div></div>
+              <div></div>
+             </div>
+              <div className="past xl:mt-8 sm:mt-0">
                 <h3 className="work-placeholder mb-5">Past</h3>
                 <div className="case-study-grid">
                   {Work.map((work) => {

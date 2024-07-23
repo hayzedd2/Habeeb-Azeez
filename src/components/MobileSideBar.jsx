@@ -114,7 +114,7 @@ const MobileSideBar = ({ isOpen }) => {
             </div>
             <div className="contact-us">
               <h3 className=" font-kumbh font-[600]">Let’s Build Together</h3>
-              <p className=" font-kumbh leading-8 my-3 text-[#CFD0D0]">
+              <p className=" font-kumbh leading-normal my-3 text-[#CFD0D0]">
                 Trust me, I’d love to hear about your project, Shoot me a mail.
               </p>
               <a href="">

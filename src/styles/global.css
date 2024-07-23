@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700;800;900&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   overflow-x: hidden;
 }
@@ -83,7 +88,7 @@ html {
   @apply font-kumbh font-[600] text-[0.95rem];
 }
 .work-box {
-  @apply text-grey rounded-[6px] bg-[#1c2023] px-4 py-4 w-[22.4rem] mt-5;
+  @apply text-grey rounded-[6px] bg-[#1c2023] px-4 py-4 w-[21.4rem] mt-5;
 }
 .work-box-grid {
   @apply text-grey rounded-[6px] bg-[#1c2023] px-4 py-4;

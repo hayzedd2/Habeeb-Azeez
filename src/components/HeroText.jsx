@@ -36,11 +36,11 @@ const HeroText = () => {
             <img src={habeebImg} alt="" className="xl:w-full sm:w-[20rem]" />
           </div>
         </div>
-        <div className=" flex px-7 items-center justify-between h-[6vh] footer-border font-kumbh ">
+        <div className=" flex px-7 items-center sm:justify-center xl:justify-between py-4 footer-border font-kumbh ">
           <p className="text-[#CFD0D0] font-[500] text-[0.9rem] xl:block sm:hidden">
             Copyright © 2022
           </p>
-          <p className="text-[#CFD0D0] font-[500] text-[0.9rem]">
+          <p className="text-[#CFD0D0] font-[500] text-center text-[0.9rem]">
             Designed by Azeez Habeeb with love❤️ and light💡
           </p>
         </div>
