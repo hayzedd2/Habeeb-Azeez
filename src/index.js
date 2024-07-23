@@ -15,6 +15,7 @@ import ReOwn from "./components/ReOwn";
 import FSDH from "./components/FSDH";
 import HaloWebsite from "./components/HaloWebsite";
 import StoreBook from "./components/StoreBook";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const RoutesList = () => {
@@ -38,6 +39,7 @@ const RoutesList = () => {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Analytics/>
     <BrowserRouter>
       <RoutesList />
     </BrowserRouter>
