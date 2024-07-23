@@ -15,7 +15,6 @@ module.exports = {
         grey : "#CFD0D0"
       },
       fontFamily: {
-
         kumbh : ['Kumbh Sans', "sans-serif"],
       },
     },

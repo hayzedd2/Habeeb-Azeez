@@ -4,31 +4,39 @@ import Navbar from "./Navbar";
 const WorkExperience = () => {
   const Work = [
     {
+      companyName: "Brass",
+      contractType: "Full time",
+      jobType: "Product Designer",
+      location: "Lagos, Nigeria",
+      date: "Apr 2023 - May 2024",
+    },
+    {
       companyName: "Voyage Control",
       contractType: "Contract",
       jobType: "Product Designer",
       location: "United Kingdom",
       date: "July 2022 - May 2023",
     },
+    
     {
       companyName: "Halo Invest",
       contractType: "Full-Time",
       jobType: "Product Designer",
-      location: "Lagos Nigeria",
+      location: "Lagos, Nigeria",
       date: "Nov. 2021 - Dec. 2022",
     },
     {
       companyName: "CKDigital",
       contractType: "Full-Time",
       jobType: "UI Designer",
-      location: "Lagos Nigeria",
+      location: "Lagos, Nigeria",
       date: "April 2021 - Nov. 2021",
     },
     {
       companyName: "CodeGarage Africa",
       contractType: "Full-Time",
       jobType: "UI Designer",
-      location: "Lagos Nigeria",
+      location: "Lagos, Nigeria",
       date: "April. 2020 - April. 2021",
     },
     {
@@ -54,7 +62,7 @@ const WorkExperience = () => {
           <SideBar />
         </div>
         <div className="xl:w-4/5 sm:w-full max-h-screen overflow-auto">
-          <div className="pt-[8rem]">
+          <div className="pt-[8rem] pb-[3rem]">
             <div className=" px-7  text-white ">
               <div className="heading flex items-center justify-between">
                 <h1 className=" font-kumbh font-[600] text-[1.3rem]">
@@ -69,7 +77,7 @@ const WorkExperience = () => {
 
                 <div className="work-box">
                   <div className="heading">
-                    <h3>Brass</h3>
+                    <h3>Moniepoint Group</h3>
                     <h6>Full-Time</h6>
                   </div>
                   <div className="work-sub-box mt-5">
@@ -79,7 +87,7 @@ const WorkExperience = () => {
                       </div>
                       <div className="bullet-text">
                         <h3>Product Designer</h3>
-                        <h4>Lagos, Nigeria | April 2023 - Present</h4>
+                        <h4>Lagos, Nigeria | April 2024 - Present</h4>
                       </div>
                     </div>
                   </div>

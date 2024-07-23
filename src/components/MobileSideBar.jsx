@@ -10,7 +10,9 @@ const MobileSideBar = ({ isOpen }) => {
   return (
     <div className="mobile">
       {!isOpen ? (
-        <nav className={`flex flex-row  fixed top-0  w-full   text-white min-h-screen nav-links-border overflow-y-scroll  scroll-container`} >
+        <nav
+          className={`flex flex-row  fixed top-0  w-full   text-white min-h-screen nav-links-border overflow-y-scroll  scroll-container`}
+        >
           <div className="w-[80%] bg-[#111315] px-3 pr-10">
             <div className="mt-10">
               <h4 className="sidebar-placeholder">MENU</h4>
